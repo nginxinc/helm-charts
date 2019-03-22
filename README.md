@@ -18,5 +18,5 @@ $ helm install nginx-stable/nginx-ingress
 ## Install Packages (specific version)
 
 ```console
-$ helm install nginx-stable/nginx-ingress --version 1.4.3
+$ helm install nginx-stable/nginx-ingress --version <chart_version>
 ```
