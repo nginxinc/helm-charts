@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   nginx-ingress:
   - appVersion: 1.4.4
-    created: 2019-03-14T15:41:52.137153Z
+    created: 2019-03-22T14:52:33.103678Z
     description: NGINX Ingress Controller
-    digest: ae30f902720b4a01bf3fe7997aea94bc699b6868c0ed48cd2eb531a33f20fbcb
+    digest: d1b748b447b9f4a59a9cf31550632ac37b5400f8e703be6c657d5022ff2ae791
     keywords:
     - ingress
     - nginx
@@ -17,24 +17,6 @@ entries:
     sources:
     - https://github.com/nginxinc/kubernetes-ingress/tree/v1.4.4/deployments/helm-chart
     urls:
-    - https://helm.nginx.com/stable/nginx-ingress-1.4.4.tgz
-    version: 1.4.4
-  - appVersion: 1.4.3
-    created: 2019-03-14T15:41:52.136481Z
-    description: NGINX Ingress Controller
-    digest: 4d42c02ce149df01dacb7d52869af3114dc187c6d8bdc8485fbaa44c900d6660
-    keywords:
-    - ingress
-    - nginx
-    maintainers:
-    - email: damian.curry@nginx.com
-      name: Damian Curry
-    - email: dean.coakley@nginx.com
-      name: Dean Coakley
-    name: nginx-ingress
-    sources:
-    - https://github.com/nginxinc/kubernetes-ingress/tree/master/deployment/helm-chart
-    urls:
-    - https://helm.nginx.com/stable/nginx-ingress-1.4.3.tgz
-    version: 1.4.3
-generated: 2019-03-14T15:41:52.133708Z
+    - https://helm.nginx.com/stable/nginx-ingress-0.2.0.tgz
+    version: 0.2.0
+generated: 2019-03-22T14:52:33.101413Z
