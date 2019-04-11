@@ -1,8 +1,25 @@
 apiVersion: v1
 entries:
   nginx-ingress:
+  - appVersion: 1.4.6
+    created: 2019-04-11T15:46:16.160775+01:00
+    description: NGINX Ingress Controller
+    digest: 1c40fb925dcc19fb24b6af864400642360e188f2ee2b63c029b5441c0a906160
+    icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.4.6/deployments/helm-chart/chart-icon.png
+    keywords:
+    - ingress
+    - nginx
+    maintainers:
+    - email: kubernetes@nginx.com
+      name: NGINX Kubernetes Team
+    name: nginx-ingress
+    sources:
+    - https://github.com/nginxinc/kubernetes-ingress/tree/v1.4.6/deployments/helm-chart
+    urls:
+    - https://helm.nginx.com/stable/nginx-ingress-0.2.1.tgz
+    version: 0.2.1
   - appVersion: 1.4.5
-    created: 2019-03-28T16:18:54.544634Z
+    created: 2019-04-11T15:46:16.160102+01:00
     description: NGINX Ingress Controller
     digest: 5c7f7badb8cf5bc7f36f0b770dfd4d232109623e6fbe7fd5907fb82243245c0d
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.4.5/deployments/helm-chart/chart-icon.png
@@ -18,4 +35,4 @@ entries:
     urls:
     - https://helm.nginx.com/stable/nginx-ingress-0.2.0.tgz
     version: 0.2.0
-generated: 2019-03-28T16:18:54.543903Z
+generated: 2019-04-11T15:46:16.152534+01:00
