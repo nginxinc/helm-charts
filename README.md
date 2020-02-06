@@ -4,32 +4,34 @@ This repository contains packaged Helm charts provided by NGINX.
 
 ## Add Repository (stable)
 
-```console
+```sh
 $ helm repo add nginx-stable https://helm.nginx.com/stable
 $ helm repo update
 ```
 
 ## Add Repository (experimental)
 
-```console
+```sh
 $ helm repo add nginx-edge https://helm.nginx.com/edge
 $ helm repo update
 ```
 
 ## Install Packages (stable)
 
-```console
-$ helm install nginx-stable/nginx-ingress
+```sh
+# Helm 2.x client
+$ helm install --name my-release nginx-stable/nginx-ingress [--version 0.4.1]
+
+# Helm 3.x client
+$ helm install my-release nginx-stable/nginx-ingress [--version 0.4.1]
 ```
 
 ## Install Packages (experimental)
 
-```console
-$ helm install nginx-edge/nginx-ingress
-```
+```sh
+# Helm 2.x client
+$ helm install --name my-release nginx-edge/nginx-ingress --devel
 
-## Install Packages (specific version)
-
-```console
-$ helm install nginx-stable/nginx-ingress --version <chart_version>
+# Helm 3.x client
+$ helm install my-release nginx-edge/nginx-ingress --devel
 ```
