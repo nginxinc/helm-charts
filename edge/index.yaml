@@ -3,9 +3,9 @@ entries:
   nginx-ingress:
   - apiVersion: v1
     appVersion: 0.0.0-edge
-    created: "2020-07-03T13:01:39.667692342Z"
+    created: "2020-07-06T11:00:34.839516477Z"
     description: NGINX Ingress Controller
-    digest: 4d25850f7cf06eece9657b4bbe1d4f1dcdf319f331842b0cdb71179207e7ac88
+    digest: 6e6df3d0f4acfd213e911287c856014d39be7064671d7c7ae20126e0a55bb67b
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/master/deployments/helm-chart/chart-icon.png
     keywords:
     - ingress
@@ -19,4 +19,4 @@ entries:
     urls:
     - https://helm.nginx.com/edge/nginx-ingress-0.0.0-edge.tgz
     version: 0.0.0-edge
-generated: "2020-07-03T13:01:39.666025243Z"
+generated: "2020-07-06T11:00:34.837881807Z"
