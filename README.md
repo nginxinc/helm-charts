@@ -2,6 +2,10 @@
 
 This repository contains packaged Helm charts provided by NGINX.
 
+## Documentation
+
+https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/
+
 ## Add Repository (stable)
 
 ```sh
