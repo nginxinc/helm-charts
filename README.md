@@ -1,12 +1,12 @@
 # NGINX - Helm Charts
 
 This repository contains packaged Helm charts provided by NGINX.
+## NGINX Ingress Controller
 
-## Documentation
+### Documentation
 
 https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/
 
-## NGINX Ingress Controller
 ### Add Repository (stable)
 
 ```sh
@@ -37,13 +37,17 @@ $ helm install my-release nginx-edge/nginx-ingress --devel
 
 ## NGINX Service Mesh
 
+### Documentation
+
+https://docs.nginx.com/nginx-service-mesh/get-started/install-with-helm/
+
 ### Add repository
 ```sh
-$ helm repo add nginx-service-mesh https://helm.nginx.com/nginx-service-mesh
+$ helm repo add nginx-stable https://helm.nginx.com/stable
 $ helm repo update
 ```
 
 ### Install packages
 ```sh
-$ helm install my-release nginx-service-mesh/nginx-service-mesh [--version 0.1.0]
+$ helm install my-release nginx-stable/nginx-service-mesh --namespace nginx-mesh --create-namespace [--version 0.1.0]
 ```
