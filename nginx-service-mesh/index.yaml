@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  nginx-service-mesh:
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2021-06-29T17:49:08.588351+01:00"
+    description: NGINX Service Mesh
+    digest: bde006fd76601f79e6936112b326f2fc9e51a3af5097082ade9d9ffcf31b54fe
+    kubeVersion: '>= 1.16.0-0'
+    name: nginx-service-mesh
+    urls:
+    - https://nginxinc/nginx-service-mesh/helm-charts/nginx-service-mesh-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-06-29T17:49:08.586116+01:00"
