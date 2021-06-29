@@ -6,28 +6,44 @@ This repository contains packaged Helm charts provided by NGINX.
 
 https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/
 
-## Add Repository (stable)
+## NGINX Ingress Controller
+### Add Repository (stable)
 
 ```sh
 $ helm repo add nginx-stable https://helm.nginx.com/stable
 $ helm repo update
 ```
 
-## Add Repository (experimental)
+### Add Repository (experimental)
 
 ```sh
 $ helm repo add nginx-edge https://helm.nginx.com/edge
 $ helm repo update
 ```
 
-## Install Packages (stable)
+
+### Install Packages (stable)
 
 ```sh
 $ helm install my-release nginx-stable/nginx-ingress [--version 0.4.1]
 ```
 
-## Install Packages (experimental)
+### Install Packages (experimental)
 
 ```sh
 $ helm install my-release nginx-edge/nginx-ingress --devel
+
+```
+
+## NGINX Service Mesh
+
+### Add repository
+```sh
+$ helm repo add nginx-service-mesh https://helm.nginx.com/nginx-service-mesh
+$ helm repo update
+```
+
+### Install packages
+```sh
+$ helm install my-release nginx-service-mesh/meshctl [--version 0.1.0]
 ```
