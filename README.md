@@ -45,5 +45,5 @@ $ helm repo update
 
 ### Install packages
 ```sh
-$ helm install my-release nginx-service-mesh/meshctl [--version 0.1.0]
+$ helm install my-release nginx-service-mesh/nginx-service-mesh [--version 0.1.0]
 ```

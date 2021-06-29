@@ -9,6 +9,6 @@ entries:
     kubeVersion: '>= 1.16.0-0'
     name: nginx-service-mesh
     urls:
-    - https://nginxinc/nginx-service-mesh/helm-charts/nginx-service-mesh-0.1.0.tgz
+    - https://helm.nginx.com/nginx-service-mesh/nginx-service-mesh-0.1.0.tgz
     version: 0.1.0
 generated: "2021-06-29T17:49:08.586116+01:00"
