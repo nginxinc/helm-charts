@@ -49,5 +49,5 @@ $ helm repo update
 
 ### Install packages
 ```sh
-$ helm install my-release nginx-stable/nginx-service-mesh --namespace nginx-mesh --create-namespace [--version 0.1.0]
+$ helm install my-release nginx-stable/nginx-service-mesh --namespace nginx-mesh --create-namespace
 ```
