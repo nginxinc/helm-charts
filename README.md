@@ -1,6 +1,11 @@
 # NGINX - Helm Charts
 
-This repository contains packaged Helm charts provided by NGINX.
+This repository contains packaged Helm charts provided by NGINX:
+
+- NGINX Ingress Controller
+- NGINX Service Mesh
+- NGINX Appprotect Dos Arbitrator
+
 ## NGINX Ingress Controller
 
 ### Documentation
@@ -50,4 +55,21 @@ $ helm repo update
 ### Install packages
 ```sh
 $ helm install my-release nginx-stable/nginx-service-mesh --namespace nginx-mesh --create-namespace
+```
+
+## NGINX Appprotect Dos Arbitrator
+
+### Documentation
+
+https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/
+
+### Add repository
+```sh
+$ helm repo add nginx-stable https://helm.nginx.com/stable
+$ helm repo update
+```
+
+### Install packages
+```sh
+$ helm install my-release nginx-stable/nginx-appprotect-dos-arbitrator [--version 0.1.0]
 ```
