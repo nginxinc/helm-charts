@@ -73,3 +73,37 @@ $ helm repo update
 ```sh
 $ helm install my-release nginx-stable/nginx-appprotect-dos-arbitrator [--version 0.1.0]
 ```
+
+## NGINX Management Suite
+
+### Documentation
+
+https://docs.nginx.com/nginx-management-suite/admin-guides/installation/kubernetes/nms-helm/
+
+### Add repository
+```sh
+$ helm repo add nginx-stable https://helm.nginx.com/stable
+$ helm repo update
+``
+
+### Install packages
+```sh
+$ helm install nms nginx-stable/nms [--version 1.1.1]
+```
+
+## NGINX ACM Developer Portal
+
+### Documentation
+
+https://docs.nginx.com/nginx-management-suite/admin-guides/installation/kubernetes/devportal-helm-chart/
+
+### Add repository
+```sh
+$ helm repo add nginx-stable https://helm.nginx.com/stable
+$ helm repo update
+``
+
+### Install packages
+```sh
+$ helm install nms nginx-stable/nms [--version 1.1.1]
+```
