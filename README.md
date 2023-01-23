@@ -105,5 +105,5 @@ $ helm repo update
 
 ### Install packages
 ```sh
-$ helm install nms nginx-stable/nms [--version 1.1.1]
+$ helm install nms nginx-stable/nginx-devportal [--version 1.4.0]
 ```
