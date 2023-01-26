@@ -84,7 +84,7 @@ https://docs.nginx.com/nginx-management-suite/admin-guides/installation/kubernet
 ```sh
 $ helm repo add nginx-stable https://helm.nginx.com/stable
 $ helm repo update
-``
+```
 
 ### Install packages
 ```sh
@@ -101,7 +101,7 @@ https://docs.nginx.com/nginx-management-suite/admin-guides/installation/kubernet
 ```sh
 $ helm repo add nginx-stable https://helm.nginx.com/stable
 $ helm repo update
-``
+```
 
 ### Install packages
 ```sh
