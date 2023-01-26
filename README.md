@@ -1,10 +1,12 @@
 # NGINX - Helm Charts
 
-This repository contains packaged Helm charts provided by NGINX:
+This repository contains Helm charts to help you install selected NGINX Kubernetes applications. The following are packaged Helm charts provided by NGINX:
 
 - NGINX Ingress Controller
 - NGINX Service Mesh
 - NGINX Appprotect Dos Arbitrator
+
+Please note that while these charts are available for use under the Apache License 2.0, they may in some cases refer to applications that are available only under commercial licenses.
 
 ## NGINX Ingress Controller
 
