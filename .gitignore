@@ -1,0 +1,10 @@
+## MacOS releated files
+.DS_Store
+
+# Visual Studio Code settings
+.vscode
+
+# Emacs save files
+*~
+\#*\#
+.\#*
