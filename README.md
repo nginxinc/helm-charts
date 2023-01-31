@@ -4,7 +4,7 @@ This repository contains packaged Helm charts provided by NGINX:
 
 - NGINX Ingress Controller
 - NGINX Service Mesh
-- NGINX Appprotect Dos Arbitrator
+- NGINX App Protect DoS Arbitrator
 
 
 ## NGINX Ingress Controller
@@ -58,7 +58,7 @@ $ helm repo update
 $ helm install my-release nginx-stable/nginx-service-mesh --namespace nginx-mesh --create-namespace
 ```
 
-## NGINX Appprotect Dos Arbitrator
+## NGINX App Protect DoS Arbitrator
 
 ### Documentation
 
