@@ -5,6 +5,7 @@ This repository contains packaged Helm charts provided by NGINX:
 - NGINX Ingress Controller
 - NGINX Service Mesh
 - NGINX App Protect DoS Arbitrator
+- NGINX Management Suite
 
 
 ## NGINX Ingress Controller
