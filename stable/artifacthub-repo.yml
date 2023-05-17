@@ -6,4 +6,5 @@ ignore:
   - name: nginx-devportal
   - name: nms
   - name: nms-acm
+  - name: nms-adm
   - name: nms-hybrid
