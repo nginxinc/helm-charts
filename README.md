@@ -2,110 +2,68 @@
 
 This repository contains packaged Helm charts provided by NGINX:
 
-- NGINX Ingress Controller
-- NGINX Service Mesh
-- NGINX App Protect DoS Arbitrator
-- NGINX Management Suite
+- [NGINX Ingress Controller](#nginx-ingress-controller)
+- [NGINX Service Mesh](#nginx-service-mesh)
+- [NGINX App Protect DoS Arbitrator](#nginx-app-protect-dos-arbitrator)
+- [NGINX Management Suite](#nginx-management-suite)
+- [NGINX ACM Developer Portal](#nginx-acm-developer-portal)
 
 
-## NGINX Ingress Controller
+## Add Repository
 
-### Documentation
+```sh
+$ helm repo add nginx-stable https://helm.nginx.com/stable
+$ helm repo update
+```
+
+## Install Packages
+
+### NGINX Ingress Controller
+
+```sh
+$ helm install my-release nginx-stable/nginx-ingress [--version 0.17.1]
+```
+
+#### Documentation
 
 https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/
 
-### Add Repository (stable)
+### NGINX Service Mesh
 
-```sh
-$ helm repo add nginx-stable https://helm.nginx.com/stable
-$ helm repo update
-```
-
-### Add Repository (experimental)
-
-```sh
-$ helm repo add nginx-edge https://helm.nginx.com/edge
-$ helm repo update
-```
-
-
-### Install Packages (stable)
-
-```sh
-$ helm install my-release nginx-stable/nginx-ingress [--version 0.4.1]
-```
-
-### Install Packages (experimental)
-
-```sh
-$ helm install my-release nginx-edge/nginx-ingress --devel
-
-```
-
-## NGINX Service Mesh
-
-### Documentation
-
-https://docs.nginx.com/nginx-service-mesh/get-started/install-with-helm/
-
-### Add repository
-```sh
-$ helm repo add nginx-stable https://helm.nginx.com/stable
-$ helm repo update
-```
-
-### Install packages
 ```sh
 $ helm install my-release nginx-stable/nginx-service-mesh --namespace nginx-mesh --create-namespace
 ```
 
-## NGINX App Protect DoS Arbitrator
+#### Documentation
 
-### Documentation
+https://docs.nginx.com/nginx-service-mesh/get-started/install-with-helm/
 
-https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/
+### NGINX App Protect DoS Arbitrator
 
-### Add repository
-```sh
-$ helm repo add nginx-stable https://helm.nginx.com/stable
-$ helm repo update
-```
-
-### Install packages
 ```sh
 $ helm install my-release nginx-stable/nginx-appprotect-dos-arbitrator [--version 0.1.0]
 ```
 
-## NGINX Management Suite
+#### Documentation
 
-### Documentation
+https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/
 
-https://docs.nginx.com/nginx-management-suite/admin-guides/installation/kubernetes/nms-helm/
+### NGINX Management Suite
 
-### Add repository
-```sh
-$ helm repo add nginx-stable https://helm.nginx.com/stable
-$ helm repo update
-```
-
-### Install packages
 ```sh
 $ helm install nms nginx-stable/nms [--version 1.1.1]
 ```
 
-## NGINX ACM Developer Portal
+#### Documentation
 
-### Documentation
+https://docs.nginx.com/nginx-management-suite/admin-guides/installation/kubernetes/nms-helm/
 
-https://docs.nginx.com/nginx-management-suite/admin-guides/installation/kubernetes/devportal-helm-chart/
+### NGINX ACM Developer Portal
 
-### Add repository
-```sh
-$ helm repo add nginx-stable https://helm.nginx.com/stable
-$ helm repo update
-```
-
-### Install packages
 ```sh
 $ helm install nms nginx-stable/nginx-devportal [--version 1.4.0]
 ```
+
+#### Documentation
+
+https://docs.nginx.com/nginx-management-suite/admin-guides/installation/kubernetes/devportal-helm-chart/
