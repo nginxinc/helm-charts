@@ -41,12 +41,12 @@ https://docs.nginx.com/nginx-service-mesh/get-started/install-with-helm/
 ### NGINX App Protect DoS Arbitrator
 
 ```sh
-$ helm install my-release nginx-stable/nginx-appprotect-dos-arbitrator [--version 0.1.0]
+$ helm install my-release nginx-stable/nginx-appprotect-dos-arbitrator [--version 0.1.1]
 ```
 
 #### Documentation
 
-https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/
+https://github.com/nginxinc/nap-dos-arbitrator-helm-chart
 
 ### NGINX Management Suite
 
