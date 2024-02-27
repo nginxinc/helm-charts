@@ -21,7 +21,7 @@ $ helm repo update
 ### NGINX Ingress Controller
 
 ```sh
-$ helm install my-release nginx-stable/nginx-ingress [--version 0.17.1]
+$ helm install my-release nginx-stable/nginx-ingress
 ```
 
 #### Documentation
@@ -41,7 +41,7 @@ https://docs.nginx.com/nginx-service-mesh/get-started/install-with-helm/
 ### NGINX App Protect DoS Arbitrator
 
 ```sh
-$ helm install my-release nginx-stable/nginx-appprotect-dos-arbitrator [--version 0.1.0]
+$ helm install my-release nginx-stable/nginx-appprotect-dos-arbitrator
 ```
 
 #### Documentation
@@ -51,7 +51,7 @@ https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-h
 ### NGINX Management Suite
 
 ```sh
-$ helm install nms nginx-stable/nms [--version 1.1.1]
+$ helm install nms nginx-stable/nms
 ```
 
 #### Documentation
@@ -61,7 +61,7 @@ https://docs.nginx.com/nginx-management-suite/admin-guides/installation/kubernet
 ### NGINX ACM Developer Portal
 
 ```sh
-$ helm install nms nginx-stable/nginx-devportal [--version 1.4.0]
+$ helm install nms nginx-stable/nginx-devportal
 ```
 
 #### Documentation
