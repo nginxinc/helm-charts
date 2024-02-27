@@ -21,7 +21,7 @@ $ helm repo update
 ### NGINX Ingress Controller
 
 ```sh
-$ helm install my-release nginx-stable/nginx-ingress [--version 0.17.1]
+$ helm install my-release nginx-stable/nginx-ingress [--version 1.1.3]
 ```
 
 #### Documentation
@@ -51,7 +51,7 @@ https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-h
 ### NGINX Management Suite
 
 ```sh
-$ helm install nms nginx-stable/nms [--version 1.1.1]
+$ helm install nms nginx-stable/nms [--version 1.12.1]
 ```
 
 #### Documentation
@@ -61,7 +61,7 @@ https://docs.nginx.com/nginx-management-suite/admin-guides/installation/kubernet
 ### NGINX ACM Developer Portal
 
 ```sh
-$ helm install nms nginx-stable/nginx-devportal [--version 1.4.0]
+$ helm install nms nginx-stable/nginx-devportal [--version 1.7.1]
 ```
 
 #### Documentation
