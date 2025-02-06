@@ -8,7 +8,6 @@ This repository contains packaged Helm charts provided by NGINX:
 - [NGINX Management Suite](#nginx-management-suite)
 - [NGINX ACM Developer Portal](#nginx-acm-developer-portal)
 
-
 ## Add Repository
 
 ```sh
@@ -48,7 +47,7 @@ $ helm install my-release nginx-stable/nginx-appprotect-dos-arbitrator
 
 https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/
 
-### NGINX Management Suite
+### NGINX Instance Manger
 
 ```sh
 $ helm install nms nginx-stable/nms
@@ -56,14 +55,4 @@ $ helm install nms nginx-stable/nms
 
 #### Documentation
 
-https://docs.nginx.com/nginx-management-suite/admin-guides/installation/kubernetes/nms-helm/
-
-### NGINX ACM Developer Portal
-
-```sh
-$ helm install nms nginx-stable/nginx-devportal
-```
-
-#### Documentation
-
-https://docs.nginx.com/nginx-management-suite/admin-guides/installation/kubernetes/devportal-helm-chart/
+https://docs.nginx.com/nginx-instance-manager/deploy/kubernetes/deploy-using-helm/
