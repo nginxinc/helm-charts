@@ -50,7 +50,7 @@ https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-h
 ### NGINX Instance Manger
 
 ```sh
-$ helm install nms nginx-stable/nms
+$ helm install nms nginx-stable/nms-hybrid
 ```
 
 #### Documentation
