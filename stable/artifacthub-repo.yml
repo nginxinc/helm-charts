@@ -8,3 +8,4 @@ ignore:
   - name: nms-acm
   - name: nms-adm
   - name: nms-hybrid
+  - name: nim
