@@ -45,7 +45,7 @@ $ helm install my-release nginx-stable/nginx-appprotect-dos-arbitrator
 
 #### Documentation
 
-https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/
+https://github.com/nginxinc/nap-dos-arbitrator-helm-chart
 
 ### NGINX Instance Manger
 
