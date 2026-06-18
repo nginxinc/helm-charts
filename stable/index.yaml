@@ -137,6 +137,27 @@ entries:
     version: 1.3.1
   nginx-ingress:
   - apiVersion: v2
+    appVersion: 5.5.1
+    created: "2026-06-18T12:48:32.781846+01:00"
+    description: NGINX Ingress Controller
+    digest: 257797de2bd9a2d505b1d13febc9d0d2735e5181a86b1299b3c4ac0fa612c6d1
+    home: https://github.com/nginx/kubernetes-ingress
+    icon: https://raw.githubusercontent.com/nginx/kubernetes-ingress/v5.5.1/charts/nginx-ingress/chart-icon.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>= 1.25.0-0'
+    maintainers:
+    - email: kubernetes@nginx.com
+      name: nginx
+    name: nginx-ingress
+    sources:
+    - https://github.com/nginx/kubernetes-ingress/tree/v5.5.1/charts/nginx-ingress
+    type: application
+    urls:
+    - https://helm.nginx.com/stable/nginx-ingress-2.6.1.tgz
+    version: 2.6.1
+  - apiVersion: v2
     appVersion: 5.5.0
     created: "2026-05-29T15:21:51.573294+01:00"
     description: NGINX Ingress Controller
