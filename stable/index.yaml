@@ -3129,6 +3129,16 @@ entries:
     version: 4.0.0
   - apiVersion: v2
     appVersion: 4.0.0
+    created: "2026-09-02T13:56:36.445146994Z"
+    description: A Helm chart for ADM
+    digest: ea9f684145b25b4370fe23b906ba5cd7b64dabc487f11e85236b91448077a5f7
+    name: nms-adm
+    type: application
+    urls:
+    - https://helm.nginx.com/stable/nms-adm-4.0.0-ea.3.tgz
+    version: 4.0.0
+  - apiVersion: v2
+    appVersion: 4.0.0
     created: "2026-09-02T13:56:36.444433105Z"
     description: A Helm chart for ADM
     digest: 1f10bd6a46fdea113460943fe31e414074e61abca3ae2cebd377837ee8e5afd9
