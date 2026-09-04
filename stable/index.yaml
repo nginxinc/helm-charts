@@ -3,7 +3,7 @@ entries:
   f5-waf-policy-controller:
   - apiVersion: v2
     appVersion: 5.15.0
-    created: "2026-09-04T15:19:15.838320739Z"
+    created: "2026-09-04T15:36:21.232573965Z"
     dependencies:
     - condition: seaweedfsOperatorConfig.enabled
       name: seaweedfs-operator
@@ -18,7 +18,7 @@ entries:
     version: 5.15.0
   - apiVersion: v2
     appVersion: 5.14.0
-    created: "2026-09-04T15:19:15.831395516Z"
+    created: "2026-09-04T15:36:21.226170436Z"
     dependencies:
     - condition: seaweedfsOperatorConfig.enabled
       name: seaweedfs-operator
@@ -33,7 +33,7 @@ entries:
     version: 5.14.0
   - apiVersion: v2
     appVersion: 5.13.0
-    created: "2026-09-04T15:19:15.82545719Z"
+    created: "2026-09-04T15:36:21.217604784Z"
     dependencies:
     - condition: seaweedfsOperatorConfig.enabled
       name: seaweedfs-operator
@@ -49,7 +49,7 @@ entries:
   nginx-appprotect-dos-arbitrator:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2026-09-04T15:19:15.840392807Z"
+    created: "2026-09-04T15:36:21.234374685Z"
     description: NGINX App Protect Dos Arbitrator
     digest: 98b902e9e4fca67b97945019e2a84688f94b0070948989c3a27d081857fd81e5
     keywords:
@@ -65,7 +65,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2026-09-04T15:19:15.839258795Z"
+    created: "2026-09-04T15:36:21.2330243Z"
     description: NGINX App Protect Dos arbitrator
     digest: e41edce625234a9449850555677cfec4ac0d67ab37064637e6e0077089371aa0
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -87,7 +87,7 @@ entries:
   nginx-devportal:
   - apiVersion: v2
     appVersion: 1.7.2
-    created: "2026-09-04T15:19:15.847628719Z"
+    created: "2026-09-04T15:36:21.241940517Z"
     description: A Helm chart for deploying ACM Developer Portal
     digest: 4964c9848b7b230712ec2936c8216bec27fef09fb95dddd76c9e6fcf53b252fa
     name: nginx-devportal
@@ -97,7 +97,7 @@ entries:
     version: 1.7.2
   - apiVersion: v2
     appVersion: 1.7.1
-    created: "2026-09-04T15:19:15.846541628Z"
+    created: "2026-09-04T15:36:21.241038227Z"
     description: A Helm chart for deploying ACM Developer Portal
     digest: 2afd253d2521bc4ed820e74d9d5f5fb1b8fc17cf4dce7402c037bfd54943039a
     name: nginx-devportal
@@ -107,7 +107,7 @@ entries:
     version: 1.7.1
   - apiVersion: v2
     appVersion: 1.7.0
-    created: "2026-09-04T15:19:15.845418987Z"
+    created: "2026-09-04T15:36:21.240129457Z"
     description: A Helm chart for deploying ACM Developer Portal
     digest: 6e5d0ad4e0f9a6a9d8b32407a1267ab19804e47eed5e681006cd5b882e913b23
     name: nginx-devportal
@@ -117,7 +117,7 @@ entries:
     version: 1.7.0
   - apiVersion: v2
     appVersion: 1.6.0
-    created: "2026-09-04T15:19:15.844486861Z"
+    created: "2026-09-04T15:36:21.239245787Z"
     description: A Helm chart for deploying ACM Developer Portal
     digest: bd6e94ad0ed2e309250b8499dc9ef3a7d73cde69b46d54b7c3eb3295f65e75d6
     name: nginx-devportal
@@ -127,7 +127,7 @@ entries:
     version: 1.6.0
   - apiVersion: v2
     appVersion: 1.5.0
-    created: "2026-09-04T15:19:15.843603046Z"
+    created: "2026-09-04T15:36:21.238348058Z"
     description: A Helm chart for deploying ACM Developer Portal
     digest: 75a0a408639e9db65fcced5967be807d4c05a2c32084561207e08cbffad85a5d
     name: nginx-devportal
@@ -137,7 +137,7 @@ entries:
     version: 1.5.0
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2026-09-04T15:19:15.842705461Z"
+    created: "2026-09-04T15:36:21.237464218Z"
     description: A Helm chart for Kubernetes
     digest: e6c96a497f52d58bf88be14c6f1d6e69431603f6e8b727841e7c86a3d208afd2
     name: nginx-devportal
@@ -147,7 +147,7 @@ entries:
     version: 1.4.1
   - apiVersion: v2
     appVersion: 1.4.0
-    created: "2026-09-04T15:19:15.841917939Z"
+    created: "2026-09-04T15:36:21.23670593Z"
     description: A Helm chart for Kubernetes
     digest: 373062951c82f80ef32dd3b3daa5ef4a0aef053311701c8554dd2c834b96efc5
     name: nginx-devportal
@@ -157,7 +157,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.3.1
-    created: "2026-09-04T15:19:15.841143708Z"
+    created: "2026-09-04T15:36:21.235856441Z"
     description: A Helm chart for Kubernetes
     digest: 68b6732b57d6e0f8bed7ad3c57ce3891ecb79474fd25825b8cfe25505552a576
     name: nginx-devportal
@@ -168,9 +168,9 @@ entries:
   nginx-ingress:
   - apiVersion: v2
     appVersion: 5.6.1
-    created: "2026-09-04T15:19:16.162419237Z"
+    created: "2026-09-04T15:36:21.542768493Z"
     description: NGINX Ingress Controller
-    digest: aeb8f87cab6a87ceb0a08c97c3c3b438211497dbfcff0581c2125ec5e8323412
+    digest: 2e630d162357d01a58b5ba7a2e85436c9a271f7d41d11ca3ceba89778b4ffe3a
     home: https://github.com/nginx/kubernetes-ingress
     icon: https://raw.githubusercontent.com/nginx/kubernetes-ingress/v5.6.1/charts/nginx-ingress/chart-icon.png
     keywords:
@@ -189,7 +189,7 @@ entries:
     version: 2.7.1
   - apiVersion: v2
     appVersion: 5.6.0
-    created: "2026-09-04T15:19:16.15643745Z"
+    created: "2026-09-04T15:36:21.537789649Z"
     description: NGINX Ingress Controller
     digest: 415da3a0f6c50311a7e8cf5d76df1f00a79d75ac0d0a017e0d4ae4274dab358b
     home: https://github.com/nginx/kubernetes-ingress
@@ -210,7 +210,7 @@ entries:
     version: 2.7.0
   - apiVersion: v2
     appVersion: 5.5.4
-    created: "2026-09-04T15:19:16.151460751Z"
+    created: "2026-09-04T15:36:21.531726244Z"
     description: NGINX Ingress Controller
     digest: 9bdca757183ba4b3248bc73ca48d3ea40c338bd1fc6e4e0249b8c59fc9333577
     home: https://github.com/nginx/kubernetes-ingress
@@ -231,7 +231,7 @@ entries:
     version: 2.6.4
   - apiVersion: v2
     appVersion: 5.5.3
-    created: "2026-09-04T15:19:16.145646909Z"
+    created: "2026-09-04T15:36:21.526942962Z"
     description: NGINX Ingress Controller
     digest: 610efd1cb4cccc42e6b710aff59a0f1c9a271f5259d7282f6b98d4dd5e0c455e
     home: https://github.com/nginx/kubernetes-ingress
@@ -252,7 +252,7 @@ entries:
     version: 2.6.3
   - apiVersion: v2
     appVersion: 5.5.2
-    created: "2026-09-04T15:19:16.140930467Z"
+    created: "2026-09-04T15:36:21.520731285Z"
     description: NGINX Ingress Controller
     digest: 2812b339545b1397e87d5b08056b1f29c172e82cb8e79caced837ca8adbebb1e
     home: https://github.com/nginx/kubernetes-ingress
@@ -273,7 +273,7 @@ entries:
     version: 2.6.2
   - apiVersion: v2
     appVersion: 5.5.1
-    created: "2026-09-04T15:19:16.135210417Z"
+    created: "2026-09-04T15:36:21.515806452Z"
     description: NGINX Ingress Controller
     digest: 257797de2bd9a2d505b1d13febc9d0d2735e5181a86b1299b3c4ac0fa612c6d1
     home: https://github.com/nginx/kubernetes-ingress
@@ -294,7 +294,7 @@ entries:
     version: 2.6.1
   - apiVersion: v2
     appVersion: 5.5.0
-    created: "2026-09-04T15:19:16.130472635Z"
+    created: "2026-09-04T15:36:21.50919266Z"
     description: NGINX Ingress Controller
     digest: d83f8f6a95f411a3d8ab9e850ef276f03fe8c03f69e3380d2eac979d811c9bac
     home: https://github.com/nginx/kubernetes-ingress
@@ -315,7 +315,7 @@ entries:
     version: 2.6.0
   - apiVersion: v2
     appVersion: 5.4.3
-    created: "2026-09-04T15:19:16.124824547Z"
+    created: "2026-09-04T15:36:21.504198847Z"
     description: NGINX Ingress Controller
     digest: a60c31b4432c0c12871fea32686b83c947476907ee50966944a58aa6b8c87593
     home: https://github.com/nginx/kubernetes-ingress
@@ -336,7 +336,7 @@ entries:
     version: 2.5.3
   - apiVersion: v2
     appVersion: 5.4.2
-    created: "2026-09-04T15:19:16.120316212Z"
+    created: "2026-09-04T15:36:21.498316053Z"
     description: NGINX Ingress Controller
     digest: 3f3b63b300bf3e2931ebbb997b76f9441fe1cccc1e9e2c9697f5e45e16f18b75
     home: https://github.com/nginx/kubernetes-ingress
@@ -357,7 +357,7 @@ entries:
     version: 2.5.2
   - apiVersion: v2
     appVersion: 5.4.1
-    created: "2026-09-04T15:19:16.114658804Z"
+    created: "2026-09-04T15:36:21.493748284Z"
     description: NGINX Ingress Controller
     digest: 23c866c0531719586570435a4d9a57ac0fb9661fdafd572c8916208cb7b4f225
     home: https://github.com/nginx/kubernetes-ingress
@@ -378,7 +378,7 @@ entries:
     version: 2.5.1
   - apiVersion: v2
     appVersion: 5.4.0
-    created: "2026-09-04T15:19:16.110100176Z"
+    created: "2026-09-04T15:36:21.487712419Z"
     description: NGINX Ingress Controller
     digest: b8b36ff6df263aa9e263fdd44f849e418c2ed441ab97efab112f212016442750
     home: https://github.com/nginx/kubernetes-ingress
@@ -399,7 +399,7 @@ entries:
     version: 2.5.0
   - apiVersion: v2
     appVersion: 5.3.4
-    created: "2026-09-04T15:19:16.104323565Z"
+    created: "2026-09-04T15:36:21.482865496Z"
     description: NGINX Ingress Controller
     digest: 618948c31ce82f3297725f736620097bf401fc34692313221cbd2385edd71d87
     home: https://github.com/nginx/kubernetes-ingress
@@ -420,7 +420,7 @@ entries:
     version: 2.4.4
   - apiVersion: v2
     appVersion: 5.3.3
-    created: "2026-09-04T15:19:16.099443419Z"
+    created: "2026-09-04T15:36:21.477325717Z"
     description: NGINX Ingress Controller
     digest: c48cb7c8976bdf1ac9388bdf865169a9285a55e1f937d9a31fdf054290ec4c52
     home: https://github.com/nginx/kubernetes-ingress
@@ -441,7 +441,7 @@ entries:
     version: 2.4.3
   - apiVersion: v2
     appVersion: 5.3.2
-    created: "2026-09-04T15:19:16.093881343Z"
+    created: "2026-09-04T15:36:21.472877759Z"
     description: NGINX Ingress Controller
     digest: 2080a139f5810541aa1c952c8862055ed5ea6c4a2a41aff709226fdbe858e323
     home: https://github.com/nginx/kubernetes-ingress
@@ -462,7 +462,7 @@ entries:
     version: 2.4.2
   - apiVersion: v2
     appVersion: 5.3.1
-    created: "2026-09-04T15:19:16.089330286Z"
+    created: "2026-09-04T15:36:21.467190407Z"
     description: NGINX Ingress Controller
     digest: 9af5cc9027ea78bc201b95a0b57325dd7940f56aba46c90c194aafa7f9a7c230
     home: https://github.com/nginx/kubernetes-ingress
@@ -483,7 +483,7 @@ entries:
     version: 2.4.1
   - apiVersion: v2
     appVersion: 5.3.0
-    created: "2026-09-04T15:19:16.083505154Z"
+    created: "2026-09-04T15:36:21.462602398Z"
     description: NGINX Ingress Controller
     digest: 1fc6ec6b13d5ea5e7b0cfdf3924265679f491a3860bb597bb437ab63197975c8
     home: https://github.com/nginx/kubernetes-ingress
@@ -504,7 +504,7 @@ entries:
     version: 2.4.0
   - apiVersion: v2
     appVersion: 5.2.1
-    created: "2026-09-04T15:19:16.078788202Z"
+    created: "2026-09-04T15:36:21.457065708Z"
     description: NGINX Ingress Controller
     digest: 841e255957550996f6b91f5d6b708b5de7bd2bb14a3754d95ed41434cf9cdefc
     home: https://github.com/nginx/kubernetes-ingress
@@ -525,7 +525,7 @@ entries:
     version: 2.3.1
   - apiVersion: v2
     appVersion: 5.2.0
-    created: "2026-09-04T15:19:16.073044042Z"
+    created: "2026-09-04T15:36:21.452708481Z"
     description: NGINX Ingress Controller
     digest: 7c72ff415fbe56c63b619126f67059273fc4f8a5077d38a1dfb34a00a38b4f5a
     home: https://github.com/nginx/kubernetes-ingress
@@ -546,7 +546,7 @@ entries:
     version: 2.3.0
   - apiVersion: v2
     appVersion: 5.1.1
-    created: "2026-09-04T15:19:16.067440175Z"
+    created: "2026-09-04T15:36:21.446897888Z"
     description: NGINX Ingress Controller
     digest: 9fc89f0f1ec95b4f860885b9d7213aa2f2d7374907642f77f7046b44803f9e8b
     home: https://github.com/nginx/kubernetes-ingress
@@ -567,7 +567,7 @@ entries:
     version: 2.2.2
   - apiVersion: v2
     appVersion: 5.1.0
-    created: "2026-09-04T15:19:16.06401814Z"
+    created: "2026-09-04T15:36:21.443485801Z"
     description: NGINX Ingress Controller
     digest: c2a6ae874509954d6bae99cd20ace696e1a8f4707c515ba5e0a3bd52d0573542
     home: https://github.com/nginx/kubernetes-ingress
@@ -588,7 +588,7 @@ entries:
     version: 2.2.1
   - apiVersion: v2
     appVersion: 5.1.0
-    created: "2026-09-04T15:19:16.060521432Z"
+    created: "2026-09-04T15:36:21.438901852Z"
     description: NGINX Ingress Controller
     digest: 52164f462fcd1d972f3ec424a42841417c150a2181cbce62da19d8812ad8b2d1
     home: https://github.com/nginx/kubernetes-ingress
@@ -609,7 +609,7 @@ entries:
     version: 2.2.0
   - apiVersion: v2
     appVersion: 5.0.0
-    created: "2026-09-04T15:19:16.055917724Z"
+    created: "2026-09-04T15:36:21.435518805Z"
     description: NGINX Ingress Controller
     digest: 1eea50ad80c68fdfe7775d0d832dd8f19299471416e44e2843e3cfbf9d710989
     home: https://github.com/nginx/kubernetes-ingress
@@ -630,7 +630,7 @@ entries:
     version: 2.1.0
   - apiVersion: v2
     appVersion: 4.0.1
-    created: "2026-09-04T15:19:16.051418568Z"
+    created: "2026-09-04T15:36:21.430960086Z"
     description: NGINX Ingress Controller
     digest: f8b75ff4369c609a91430851e518a20560c50166f8c37438f392f321bda83ab1
     home: https://github.com/nginx/kubernetes-ingress
@@ -651,7 +651,7 @@ entries:
     version: 2.0.1
   - apiVersion: v2
     appVersion: 4.0.0
-    created: "2026-09-04T15:19:16.046577323Z"
+    created: "2026-09-04T15:36:21.42762416Z"
     description: NGINX Ingress Controller
     digest: ecb7113d077ebf058b2a990f8506ba4fa9de459e4d0ef438c6cf0497f2f58f62
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -672,7 +672,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: 3.7.2
-    created: "2026-09-04T15:19:16.043164748Z"
+    created: "2026-09-04T15:36:21.424241124Z"
     description: NGINX Ingress Controller
     digest: 564fb3fc5a7d724bb59e8a3bb7970da99ceb88b4191968ef43f6ae04d93b4e75
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -693,7 +693,7 @@ entries:
     version: 1.4.2
   - apiVersion: v2
     appVersion: 3.7.1
-    created: "2026-09-04T15:19:16.039713761Z"
+    created: "2026-09-04T15:36:21.419664564Z"
     description: NGINX Ingress Controller
     digest: b01632e1bbd2ff1a79dbe22f173807f1384b847d1316f27737bb4adc776db6a5
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -714,7 +714,7 @@ entries:
     version: 1.4.1
   - apiVersion: v2
     appVersion: 3.7.0
-    created: "2026-09-04T15:19:16.035483063Z"
+    created: "2026-09-04T15:36:21.416372049Z"
     description: NGINX Ingress Controller
     digest: bd7ac135d9cc9fb38b3c6c0b59ebfd8da4867ebe79cb0ac1a72de5c9bed29f11
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -735,7 +735,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 3.6.2
-    created: "2026-09-04T15:19:16.032274734Z"
+    created: "2026-09-04T15:36:21.411747829Z"
     description: NGINX Ingress Controller
     digest: ea0af8acd7c06c7db6ef59140b4657dbeacfc9b6259b873ea7002b5a52b23779
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -756,7 +756,7 @@ entries:
     version: 1.3.2
   - apiVersion: v2
     appVersion: 3.6.1
-    created: "2026-09-04T15:19:16.028604371Z"
+    created: "2026-09-04T15:36:21.408352462Z"
     description: NGINX Ingress Controller
     digest: a4fa916fea86b4ffcedfd03612d3c5077b18e6a27a30e79717584b3ce4a58b04
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -777,7 +777,7 @@ entries:
     version: 1.3.1
   - apiVersion: v2
     appVersion: 3.6.0
-    created: "2026-09-04T15:19:16.02426714Z"
+    created: "2026-09-04T15:36:21.404715163Z"
     description: NGINX Ingress Controller
     digest: 5b676a8d85c9b5d6d018d2f140b17ab4b4c5a2f76e0ae1a39ef20cb27f80e600
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -798,7 +798,7 @@ entries:
     version: 1.3.0
   - apiVersion: v2
     appVersion: 3.5.2
-    created: "2026-09-04T15:19:16.020627238Z"
+    created: "2026-09-04T15:36:21.399949332Z"
     description: NGINX Ingress Controller
     digest: 12a4fc4f99aeb90c1c834c054fc359b658b0be3a943ce28679e97669b95b1e6f
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -819,7 +819,7 @@ entries:
     version: 1.2.2
   - apiVersion: v2
     appVersion: 3.5.1
-    created: "2026-09-04T15:19:16.016060651Z"
+    created: "2026-09-04T15:36:21.396563855Z"
     description: NGINX Ingress Controller
     digest: 6425296b965db22ff9b06bf6ac019f07048d048725cd3cb958d86f3f06840f04
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -840,7 +840,7 @@ entries:
     version: 1.2.1
   - apiVersion: v2
     appVersion: 3.5.0
-    created: "2026-09-04T15:19:16.01279038Z"
+    created: "2026-09-04T15:36:21.392088587Z"
     description: NGINX Ingress Controller
     digest: 24da115473019b9b1d388bf0fde01843a08b7a526743575a5f1c5e7e07909f4f
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -861,7 +861,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 3.4.3
-    created: "2026-09-04T15:19:16.009108037Z"
+    created: "2026-09-04T15:36:21.388824702Z"
     description: NGINX Ingress Controller
     digest: aa996ae92f4807cb0fdcc7443ffd72ea715bfdce01243874f4af7dc9682931e3
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -882,7 +882,7 @@ entries:
     version: 1.1.3
   - apiVersion: v2
     appVersion: 3.4.2
-    created: "2026-09-04T15:19:16.002274216Z"
+    created: "2026-09-04T15:36:21.385777339Z"
     description: NGINX Ingress Controller
     digest: 3b1010769968b8485f1838349a8cae8ee360a7a6e918d8c6813541e843329e4e
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -903,7 +903,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: 3.4.1
-    created: "2026-09-04T15:19:15.997788261Z"
+    created: "2026-09-04T15:36:21.381613524Z"
     description: NGINX Ingress Controller
     digest: ad15004c985154c31986c183d9be7d97deb123a77d307b6121e57f096e566809
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -924,7 +924,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 3.4.0
-    created: "2026-09-04T15:19:15.99344421Z"
+    created: "2026-09-04T15:36:21.37844199Z"
     description: NGINX Ingress Controller
     digest: a59116970d65130b3d2ef9150ce264964ffc8367ff6754ebdc79b595928ace3e
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -945,7 +945,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 3.3.2
-    created: "2026-09-04T15:19:15.987918205Z"
+    created: "2026-09-04T15:36:21.375389347Z"
     description: NGINX Ingress Controller
     digest: dcc6c26cc8c2f55e9e90d1c1da4b1fa11d8b3ac3810c4b4358c67ad82661cad0
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -966,7 +966,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 3.3.1
-    created: "2026-09-04T15:19:15.984971823Z"
+    created: "2026-09-04T15:36:21.371224812Z"
     description: NGINX Ingress Controller
     digest: 7a3ec872fae751f9e6683f0acc34f2815d354e4e459c2821547e0ce64e0df8c5
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -987,7 +987,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 3.3.0
-    created: "2026-09-04T15:19:15.981754973Z"
+    created: "2026-09-04T15:36:21.36831994Z"
     description: NGINX Ingress Controller
     digest: b9eea9187ebf898c708f601dd9ec79a55273081bf57187b4b61ab3cbeefc8ef9
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1008,7 +1008,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 3.2.1
-    created: "2026-09-04T15:19:15.92863847Z"
+    created: "2026-09-04T15:36:21.31821196Z"
     description: NGINX Ingress Controller
     digest: a0ecd6960599880d294262eef10b2fadabbf47f57137364995fb1b152a650d6b
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1029,7 +1029,7 @@ entries:
     version: 0.18.1
   - apiVersion: v2
     appVersion: 3.2.0
-    created: "2026-09-04T15:19:15.925974546Z"
+    created: "2026-09-04T15:36:21.315572111Z"
     description: NGINX Ingress Controller
     digest: 24d1d77bf13477f144a127a6aa6d42d0586bcb6bd293edda47c77538b4defb0f
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1050,7 +1050,7 @@ entries:
     version: 0.18.0
   - apiVersion: v2
     appVersion: 3.1.1
-    created: "2026-09-04T15:19:15.923314992Z"
+    created: "2026-09-04T15:36:21.312881572Z"
     description: NGINX Ingress Controller
     digest: 5e1dfaa25fe61e2b3efd794801f5f06013063b4db5c7cdea86cc5a620289dae9
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1071,7 +1071,7 @@ entries:
     version: 0.17.1
   - apiVersion: v2
     appVersion: 3.1.0
-    created: "2026-09-04T15:19:15.91894879Z"
+    created: "2026-09-04T15:36:21.308870709Z"
     description: NGINX Ingress Controller
     digest: 72e2a6e9d6a24a713acb038c871dc963d43e8959c2828af9fb90f1b0eb88ea2b
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1092,7 +1092,7 @@ entries:
     version: 0.17.0
   - apiVersion: v2
     appVersion: 3.0.2
-    created: "2026-09-04T15:19:15.916052509Z"
+    created: "2026-09-04T15:36:21.306120159Z"
     description: NGINX Ingress Controller
     digest: 7fcf8eddea57713dc2227a498b8e6bbdd8193c996079cf7d0f5d063059ade23a
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1113,7 +1113,7 @@ entries:
     version: 0.16.2
   - apiVersion: v2
     appVersion: 3.0.1
-    created: "2026-09-04T15:19:15.913062515Z"
+    created: "2026-09-04T15:36:21.303278298Z"
     description: NGINX Ingress Controller
     digest: 825381b71d860828e9cb14a7acc6c8749f554c7216c7f628492d6bae93d18c09
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1134,7 +1134,7 @@ entries:
     version: 0.16.1
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2026-09-04T15:19:15.909058694Z"
+    created: "2026-09-04T15:36:21.299253855Z"
     description: NGINX Ingress Controller
     digest: e7baa03249333e3faaa6beafdb418f06cfb7e809be156492776fcfcd2be5e95f
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1155,7 +1155,7 @@ entries:
     version: 0.16.0
   - apiVersion: v2
     appVersion: 2.4.2
-    created: "2026-09-04T15:19:15.906265016Z"
+    created: "2026-09-04T15:36:21.296478075Z"
     description: NGINX Ingress Controller
     digest: 2fc6e5bb2be9d55e3c79e4f46b4efb2a135b4c4d525c13e4a8cea27b36242c33
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1176,7 +1176,7 @@ entries:
     version: 0.15.2
   - apiVersion: v2
     appVersion: 2.4.1
-    created: "2026-09-04T15:19:15.903727305Z"
+    created: "2026-09-04T15:36:21.293939028Z"
     description: NGINX Ingress Controller
     digest: 26d819d9e0cab6b782b4f916406f131ec95141f85dc887286688eeea64db2e62
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1197,7 +1197,7 @@ entries:
     version: 0.15.1
   - apiVersion: v2
     appVersion: 2.4.0
-    created: "2026-09-04T15:19:15.900205146Z"
+    created: "2026-09-04T15:36:21.290083966Z"
     description: NGINX Ingress Controller
     digest: aa26344301d120cddb58fac6855fd0250a51764bd73c6fa25443115c1f05558d
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1218,7 +1218,7 @@ entries:
     version: 0.15.0
   - apiVersion: v1
     appVersion: 2.3.1
-    created: "2026-09-04T15:19:15.897713737Z"
+    created: "2026-09-04T15:36:21.287619949Z"
     description: NGINX Ingress Controller
     digest: ed9563df137192e41a261f182368d15d1328cf40f6ff80ee952e3b0cebc44f77
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1238,7 +1238,7 @@ entries:
     version: 0.14.1
   - apiVersion: v1
     appVersion: 2.3.0
-    created: "2026-09-04T15:19:15.895148925Z"
+    created: "2026-09-04T15:36:21.285186183Z"
     description: NGINX Ingress Controller
     digest: a0ef375adf8906c409d5823b33ed936346b2a2023a474940e33f676c861c0f09
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1258,7 +1258,7 @@ entries:
     version: 0.14.0
   - apiVersion: v1
     appVersion: 2.2.2
-    created: "2026-09-04T15:19:15.892068439Z"
+    created: "2026-09-04T15:36:21.281980199Z"
     description: NGINX Ingress Controller
     digest: efb8223b52e375236c8efdcd2e8f275c0dd28184950cd36cad6f0e2b620f98e3
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1278,7 +1278,7 @@ entries:
     version: 0.13.2
   - apiVersion: v1
     appVersion: 2.2.1
-    created: "2026-09-04T15:19:15.889380864Z"
+    created: "2026-09-04T15:36:21.279467112Z"
     description: NGINX Ingress Controller
     digest: d8b1073d600d1bfda6c7d3539bb1838612fa4d2ba8a6e66ddc13b228f30e3fa8
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1298,7 +1298,7 @@ entries:
     version: 0.13.1
   - apiVersion: v1
     appVersion: 2.2.0
-    created: "2026-09-04T15:19:15.88707489Z"
+    created: "2026-09-04T15:36:21.277205377Z"
     description: NGINX Ingress Controller
     digest: df5c66786db655c94d4d16904e31962893c9f7d09c44f6d602ba0399025f6497
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1318,7 +1318,7 @@ entries:
     version: 0.13.0
   - apiVersion: v1
     appVersion: 2.1.2
-    created: "2026-09-04T15:19:15.884768295Z"
+    created: "2026-09-04T15:36:21.274782141Z"
     description: NGINX Ingress Controller
     digest: 821280ed2cf2f480b3f4c0a0c343680564aa4db8c068f92e14330ceb01fb6edd
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1338,7 +1338,7 @@ entries:
     version: 0.12.2
   - apiVersion: v1
     appVersion: 2.1.1
-    created: "2026-09-04T15:19:15.881388281Z"
+    created: "2026-09-04T15:36:21.271560146Z"
     description: NGINX Ingress Controller
     digest: 008674f30dec339e79cffe07df2e6bc47f93042ba528d7d7b1100ac03525d371
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1358,7 +1358,7 @@ entries:
     version: 0.12.1
   - apiVersion: v1
     appVersion: 2.1.0
-    created: "2026-09-04T15:19:15.879106977Z"
+    created: "2026-09-04T15:36:21.269337172Z"
     description: NGINX Ingress Controller
     digest: fdd5d838ff9f914321afd1d58af168e6436bb99e1e0de85589f87ae653765cc4
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1378,7 +1378,7 @@ entries:
     version: 0.12.0
   - apiVersion: v1
     appVersion: 2.0.3
-    created: "2026-09-04T15:19:15.87670152Z"
+    created: "2026-09-04T15:36:21.267184359Z"
     description: NGINX Ingress Controller
     digest: 113cf098845f5f1f38daab3e430db0d5cb6ed81917ad6e57ece7358d6e45cbe1
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1398,7 +1398,7 @@ entries:
     version: 0.11.3
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2026-09-04T15:19:15.874125918Z"
+    created: "2026-09-04T15:36:21.265050676Z"
     description: NGINX Ingress Controller
     digest: 7314657654ea4b4c623e2766d1f5afee29cf1ae9d767fe1e5b666264a2fd547a
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1418,7 +1418,7 @@ entries:
     version: 0.11.2
   - apiVersion: v1
     appVersion: 2.0.1
-    created: "2026-09-04T15:19:15.870816196Z"
+    created: "2026-09-04T15:36:21.26174416Z"
     description: NGINX Ingress Controller
     digest: 5c0e6234ca32c82132c2e02d06a7f9ae2a815972b55dc29c3c43fa1c4ebce6de
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1438,7 +1438,7 @@ entries:
     version: 0.11.1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2026-09-04T15:19:15.868717527Z"
+    created: "2026-09-04T15:36:21.259735859Z"
     description: NGINX Ingress Controller
     digest: 07aeaa407853f5ae88346459d558416441576b9beab0ae7083f97716fb115bba
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1458,7 +1458,7 @@ entries:
     version: 0.11.0
   - apiVersion: v1
     appVersion: 1.12.5
-    created: "2026-09-04T15:19:15.866624989Z"
+    created: "2026-09-04T15:36:21.257665576Z"
     description: NGINX Ingress Controller
     digest: 52c8d51da9f422dec4ffd1e59c6204f2b655f0d95c8b9d285b5ff8d393949682
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1478,7 +1478,7 @@ entries:
     version: 0.10.5
   - apiVersion: v1
     appVersion: 1.12.4
-    created: "2026-09-04T15:19:15.864319375Z"
+    created: "2026-09-04T15:36:21.255590334Z"
     description: NGINX Ingress Controller
     digest: 2b737c1e3db49550b31b8c702483052caf84700c061ef5b00de60c1ec3a997a4
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1498,7 +1498,7 @@ entries:
     version: 0.10.4
   - apiVersion: v1
     appVersion: 1.12.3
-    created: "2026-09-04T15:19:15.860630252Z"
+    created: "2026-09-04T15:36:21.252093656Z"
     description: NGINX Ingress Controller
     digest: 09347b7f670a341835ad0c354ee7615c704b2933147585f39a2d94c255678aae
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1518,7 +1518,7 @@ entries:
     version: 0.10.3
   - apiVersion: v1
     appVersion: 1.12.2
-    created: "2026-09-04T15:19:15.858473181Z"
+    created: "2026-09-04T15:36:21.249950063Z"
     description: NGINX Ingress Controller
     digest: c9b76d3e1df57c60f147b54ae06190999f686bfe54538e2af9f1ce5494eaa282
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1538,7 +1538,7 @@ entries:
     version: 0.10.2
   - apiVersion: v1
     appVersion: 1.12.1
-    created: "2026-09-04T15:19:15.856167377Z"
+    created: "2026-09-04T15:36:21.24786217Z"
     description: NGINX Ingress Controller
     digest: 669f82de4b3380e1650f62269cba12d13668f3c63a364d618987dcda38c0bd7e
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1558,7 +1558,7 @@ entries:
     version: 0.10.1
   - apiVersion: v1
     appVersion: 1.12.0
-    created: "2026-09-04T15:19:15.8537489Z"
+    created: "2026-09-04T15:36:21.245381824Z"
     description: NGINX Ingress Controller
     digest: 487334700506247a12b16cf4fb0e4300086745474f54cc7bebf4691533543c5a
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1578,7 +1578,7 @@ entries:
     version: 0.10.0
   - apiVersion: v1
     appVersion: 1.11.3
-    created: "2026-09-04T15:19:15.976858426Z"
+    created: "2026-09-04T15:36:21.364756332Z"
     description: NGINX Ingress Controller
     digest: 44da13262a6d469b29d400ce2be07dd001ec6e6e35596aad7bad4deb0ba3a13e
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1598,7 +1598,7 @@ entries:
     version: 0.9.3
   - apiVersion: v1
     appVersion: 1.11.2
-    created: "2026-09-04T15:19:15.974866081Z"
+    created: "2026-09-04T15:36:21.362351456Z"
     description: NGINX Ingress Controller
     digest: 298b45e4d786a3fef7bf486b0023e7afbe6b2390fac6561f3333a50f18901376
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1618,7 +1618,7 @@ entries:
     version: 0.9.2
   - apiVersion: v1
     appVersion: 1.11.1
-    created: "2026-09-04T15:19:15.972869165Z"
+    created: "2026-09-04T15:36:21.360390665Z"
     description: NGINX Ingress Controller
     digest: 7e1c7f515b37744fc3ac87334f5e4f191dc5c7b68c1d36048be7f05e3d0f6065
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1638,7 +1638,7 @@ entries:
     version: 0.9.1
   - apiVersion: v1
     appVersion: 1.11.0
-    created: "2026-09-04T15:19:15.970688214Z"
+    created: "2026-09-04T15:36:21.358391393Z"
     description: NGINX Ingress Controller
     digest: 213d0eb71c7c0b7c93cc3daf662c628f864ed651dc4beb68ffc13c6ed8eae49f
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1658,7 +1658,7 @@ entries:
     version: 0.9.0
   - apiVersion: v1
     appVersion: 1.10.1
-    created: "2026-09-04T15:19:15.966923149Z"
+    created: "2026-09-04T15:36:21.356394702Z"
     description: NGINX Ingress Controller
     digest: 8c99b44f41671d4122a96a48159adda07b16b25da175eaabbd3329f9dcf41a84
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1678,7 +1678,7 @@ entries:
     version: 0.8.1
   - apiVersion: v1
     appVersion: 1.10.0
-    created: "2026-09-04T15:19:15.964963094Z"
+    created: "2026-09-04T15:36:21.352976675Z"
     description: NGINX Ingress Controller
     digest: 7c98e8cc8381b9c90fae01bcc1539583ae17f79b3c161cb45288cb927ed16e90
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1698,7 +1698,7 @@ entries:
     version: 0.8.0
   - apiVersion: v1
     appVersion: 1.9.1
-    created: "2026-09-04T15:19:15.962955788Z"
+    created: "2026-09-04T15:36:21.35064723Z"
     description: NGINX Ingress Controller
     digest: a99ffc08b4c0d0c18e8008f4db6090d67daeb5f67f61e76ab1be07ce82d7b343
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.9.1/deployments/helm-chart/chart-icon.png
@@ -1717,7 +1717,7 @@ entries:
     version: 0.7.1
   - apiVersion: v1
     appVersion: 1.9.0
-    created: "2026-09-04T15:19:15.960971173Z"
+    created: "2026-09-04T15:36:21.348705419Z"
     description: NGINX Ingress Controller
     digest: 80889bbd388d621267d8eadcad16a06c1b5f3501a266cb5a19329dda117eccb5
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.9.0/deployments/helm-chart/chart-icon.png
@@ -1736,7 +1736,7 @@ entries:
     version: 0.7.0
   - apiVersion: v1
     appVersion: 1.8.1
-    created: "2026-09-04T15:19:15.958836673Z"
+    created: "2026-09-04T15:36:21.346810998Z"
     description: NGINX Ingress Controller
     digest: 80213a59db4bdabd4ae409de0d1092cf0d33101346c7e20e3fc6a2c25bdae97c
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.8.1/deployments/helm-chart/chart-icon.png
@@ -1754,7 +1754,7 @@ entries:
     version: 0.6.1
   - apiVersion: v1
     appVersion: 1.8.0
-    created: "2026-09-04T15:19:15.955888741Z"
+    created: "2026-09-04T15:36:21.344500543Z"
     description: NGINX Ingress Controller
     digest: 909173fda4908c965c7ec94ff38329be067e25616c860be6c07af2865bf06cbf
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.8.0/deployments/helm-chart/chart-icon.png
@@ -1772,7 +1772,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: 1.7.2
-    created: "2026-09-04T15:19:15.953280888Z"
+    created: "2026-09-04T15:36:21.341754074Z"
     description: NGINX Ingress Controller
     digest: 282208f4db9ad18b46951561f4c95d1033ca3cd0ef1ad10526bda2097240f28e
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.7.2/deployments/helm-chart/chart-icon.png
@@ -1790,7 +1790,7 @@ entries:
     version: 0.5.2
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2026-09-04T15:19:15.951861769Z"
+    created: "2026-09-04T15:36:21.340329078Z"
     description: NGINX Ingress Controller
     digest: 4797f3dfd146c6d02e1e76468846c4eb84a1055d2fbfed52793bb98385cdbf89
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.7.1/deployments/helm-chart/chart-icon.png
@@ -1808,7 +1808,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: 1.7.0
-    created: "2026-09-04T15:19:15.95046715Z"
+    created: "2026-09-04T15:36:21.338978644Z"
     description: NGINX Ingress Controller
     digest: 96ced7e04f3fefdac023588aef6e297243469b9100c346246fd64eef088e32b2
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.7.0/deployments/helm-chart/chart-icon.png
@@ -1826,7 +1826,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 1.6.3
-    created: "2026-09-04T15:19:15.94903975Z"
+    created: "2026-09-04T15:36:21.337635339Z"
     description: NGINX Ingress Controller
     digest: c02e2bb6dfba878338e17ef5a7ba618d8fc911755f1a7f0da68915f8d5b8c5d1
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.6.3/deployments/helm-chart/chart-icon.png
@@ -1844,7 +1844,7 @@ entries:
     version: 0.4.3
   - apiVersion: v1
     appVersion: 1.6.2
-    created: "2026-09-04T15:19:15.947824176Z"
+    created: "2026-09-04T15:36:21.336395236Z"
     description: NGINX Ingress Controller
     digest: 4aa61bd5f35c61326182e59a1524ac6fb743ac9bf196f8c8bbbf8ddd89fd717b
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.6.2/deployments/helm-chart/chart-icon.png
@@ -1862,7 +1862,7 @@ entries:
     version: 0.4.2
   - apiVersion: v1
     appVersion: 1.6.1
-    created: "2026-09-04T15:19:15.946716645Z"
+    created: "2026-09-04T15:36:21.335324054Z"
     description: NGINX Ingress Controller
     digest: faeea6f7b7457367c6f138082bca3d800e6ebfb69ffde2be91bf44e6657fb7e9
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.6.1/deployments/helm-chart/chart-icon.png
@@ -1880,7 +1880,7 @@ entries:
     version: 0.4.1
   - apiVersion: v1
     appVersion: 1.6.0
-    created: "2026-09-04T15:19:15.945408078Z"
+    created: "2026-09-04T15:36:21.334059491Z"
     description: NGINX Ingress Controller
     digest: 818cbe7e749d75b617514eb39eb56d24a7a03602b091640d0b9dd981216f44a6
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.6.0/deployments/helm-chart/chart-icon.png
@@ -1898,7 +1898,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 1.5.8
-    created: "2026-09-04T15:19:15.942701983Z"
+    created: "2026-09-04T15:36:21.331672655Z"
     description: NGINX Ingress Controller
     digest: 3774282fbb669a748e7690ca577ddc9d044996626b84304a709da5e8edf3882d
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.5.8/deployments/helm-chart/chart-icon.png
@@ -1916,7 +1916,7 @@ entries:
     version: 0.3.8
   - apiVersion: v1
     appVersion: 1.5.7
-    created: "2026-09-04T15:19:15.941545121Z"
+    created: "2026-09-04T15:36:21.330509572Z"
     description: NGINX Ingress Controller
     digest: ef05a71141bbe2b57ced96fbd0de8cf27d8c57b7f00936743c6093b2b2409821
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.5.7/deployments/helm-chart/chart-icon.png
@@ -1934,7 +1934,7 @@ entries:
     version: 0.3.7
   - apiVersion: v1
     appVersion: 1.5.6
-    created: "2026-09-04T15:19:15.940386558Z"
+    created: "2026-09-04T15:36:21.32938475Z"
     description: NGINX Ingress Controller
     digest: 92065b21f232758bede05903a0b95477ccdcf91e0770de8e5e2b8be4ed86ec2a
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.5.6/deployments/helm-chart/chart-icon.png
@@ -1952,7 +1952,7 @@ entries:
     version: 0.3.6
   - apiVersion: v1
     appVersion: 1.5.5
-    created: "2026-09-04T15:19:15.939071112Z"
+    created: "2026-09-04T15:36:21.328238868Z"
     description: NGINX Ingress Controller
     digest: f23e92e0482f26aa4b47d3ba3372ae0e3184b1fe3f55d34476d85eca37e7d96c
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.5.5/deployments/helm-chart/chart-icon.png
@@ -1970,7 +1970,7 @@ entries:
     version: 0.3.5
   - apiVersion: v1
     appVersion: 1.5.4
-    created: "2026-09-04T15:19:15.937884548Z"
+    created: "2026-09-04T15:36:21.327085905Z"
     description: NGINX Ingress Controller
     digest: 2e998a440f475aad1d3e9ca496ba8e0ed472ce100cb90d2a96a7f1455dd6cb50
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.5.4/deployments/helm-chart/chart-icon.png
@@ -1988,7 +1988,7 @@ entries:
     version: 0.3.4
   - apiVersion: v1
     appVersion: 1.5.3
-    created: "2026-09-04T15:19:15.936715436Z"
+    created: "2026-09-04T15:36:21.325901783Z"
     description: NGINX Ingress Controller
     digest: 1c4f1c1a63e134fb9465666e1ae2b3db3642d478d91bc8209ea8515d1c9f4357
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.5.3/deployments/helm-chart/chart-icon.png
@@ -2006,7 +2006,7 @@ entries:
     version: 0.3.3
   - apiVersion: v1
     appVersion: 1.5.2
-    created: "2026-09-04T15:19:15.935518202Z"
+    created: "2026-09-04T15:36:21.3247523Z"
     description: NGINX Ingress Controller
     digest: 02089cbfc65e684c4943f29c971e4affbffe05fea88328e5c10011c6e2a46da4
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.5.2/deployments/helm-chart/chart-icon.png
@@ -2024,7 +2024,7 @@ entries:
     version: 0.3.2
   - apiVersion: v1
     appVersion: 1.5.1
-    created: "2026-09-04T15:19:15.934331059Z"
+    created: "2026-09-04T15:36:21.323578658Z"
     description: NGINX Ingress Controller
     digest: 9c59c9ca99c0894a9db24ee6f842bd99304a29ca64b5c57356c1332c701a8e64
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.5.1/deployments/helm-chart/chart-icon.png
@@ -2042,7 +2042,7 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     appVersion: 1.5.0
-    created: "2026-09-04T15:19:15.932885159Z"
+    created: "2026-09-04T15:36:21.322141132Z"
     description: NGINX Ingress Controller
     digest: c205aaa25a641353f3c255c99b18bafe150267b8dc4a9ac276c1e3dab1cc83ee
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.5.0/deployments/helm-chart/chart-icon.png
@@ -2060,7 +2060,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 1.4.6
-    created: "2026-09-04T15:19:15.930743549Z"
+    created: "2026-09-04T15:36:21.32006518Z"
     description: NGINX Ingress Controller
     digest: 1c40fb925dcc19fb24b6af864400642360e188f2ee2b63c029b5441c0a906160
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.4.6/deployments/helm-chart/chart-icon.png
@@ -2078,7 +2078,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 1.4.5
-    created: "2026-09-04T15:19:15.929601917Z"
+    created: "2026-09-04T15:36:21.31916252Z"
     description: NGINX Ingress Controller
     digest: 5c7f7badb8cf5bc7f36f0b770dfd4d232109623e6fbe7fd5907fb82243245c0d
     icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v1.4.5/deployments/helm-chart/chart-icon.png
@@ -2096,7 +2096,7 @@ entries:
     version: 0.2.0
   nginx-service-mesh:
   - apiVersion: v2
-    created: "2026-09-04T15:19:16.183175816Z"
+    created: "2026-09-04T15:36:21.564366406Z"
     description: NGINX Service Mesh
     digest: 021eadef587547ffef1fcaa936c2ad10a7dcf7a3aeca3453bdefe0ef9831d8f6
     icon: https://raw.githubusercontent.com/nginxinc/nginx-service-mesh/main/helm-chart/chart-icon.png
@@ -2107,7 +2107,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: 1.7.0
-    created: "2026-09-04T15:19:16.18078707Z"
+    created: "2026-09-04T15:36:21.562591327Z"
     description: NGINX Service Mesh
     digest: 398dd89b1710b0cf66a24b430813661e7b89abb6586bd5e5a032b92e1ab9495d
     icon: https://raw.githubusercontent.com/nginxinc/nginx-service-mesh/main/helm-chart/chart-icon.png
@@ -2118,7 +2118,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 1.6.0
-    created: "2026-09-04T15:19:16.178956499Z"
+    created: "2026-09-04T15:36:21.560728487Z"
     description: NGINX Service Mesh
     digest: 7cdcc594e368775bb64de91cee4da5dc8977c1268aaa80b6ae42221746712208
     icon: https://raw.githubusercontent.com/nginxinc/nginx-service-mesh/master/helm-chart/chart-icon.png
@@ -2129,7 +2129,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 1.5.0
-    created: "2026-09-04T15:19:16.177268431Z"
+    created: "2026-09-04T15:36:21.558879207Z"
     description: NGINX Service Mesh
     digest: c27993a6ae3a5459179c33486804e68d8ec661e67bb8c66e7ce558c3041d1f79
     icon: https://raw.githubusercontent.com/nginxinc/nginx-service-mesh/master/helm-chart/chart-icon.png
@@ -2140,7 +2140,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2026-09-04T15:19:16.175507972Z"
+    created: "2026-09-04T15:36:21.555857614Z"
     description: NGINX Service Mesh
     digest: aadb569bf06f785f3fa7462649771f7ad0acf2dfc361f692cde694cd508b25a9
     icon: https://raw.githubusercontent.com/nginxinc/nginx-service-mesh/master/helm-chart/chart-icon.png
@@ -2151,7 +2151,7 @@ entries:
     version: 0.4.1
   - apiVersion: v2
     appVersion: 1.4.0
-    created: "2026-09-04T15:19:16.173554048Z"
+    created: "2026-09-04T15:36:21.553945503Z"
     description: NGINX Service Mesh
     digest: eb0e487f85d1b56993c5ebd313c2da48fd03f8011728fc853256f85cd8b3bc97
     icon: https://raw.githubusercontent.com/nginxinc/nginx-service-mesh/master/helm-chart/chart-icon.png
@@ -2162,7 +2162,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.3.1
-    created: "2026-09-04T15:19:16.170584745Z"
+    created: "2026-09-04T15:36:21.552034973Z"
     description: NGINX Service Mesh
     digest: 862f6b86ed3e881259abab08f3b03a469aeb535e3f9ddd693688e49ccadb6894
     icon: https://raw.githubusercontent.com/nginxinc/nginx-service-mesh/master/helm-chart/chart-icon.png
@@ -2173,7 +2173,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2026-09-04T15:19:16.168764704Z"
+    created: "2026-09-04T15:36:21.550110702Z"
     description: NGINX Service Mesh
     digest: 81264d6ae5304a18b9b81f433231bfddba827cee15e3577e5398403cb81eece1
     icon: https://raw.githubusercontent.com/nginxinc/nginx-service-mesh/master/helm-chart/chart-icon.png
@@ -2184,7 +2184,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.2.1
-    created: "2026-09-04T15:19:16.166980094Z"
+    created: "2026-09-04T15:36:21.548279242Z"
     description: NGINX Service Mesh
     digest: 106eac8ac56843e2d1bbbcadfc58c5abf588110bde840c5bc7de86604d62c43f
     icon: https://raw.githubusercontent.com/nginxinc/nginx-service-mesh/master/helm-chart/chart-icon.png
@@ -2195,7 +2195,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2026-09-04T15:19:16.165371939Z"
+    created: "2026-09-04T15:36:21.545738855Z"
     description: NGINX Service Mesh
     digest: a94ab3f453ae759a4e4040bb43a57f9f2462dcc34d35bea43060c0ca1050d3cd
     icon: https://raw.githubusercontent.com/nginxinc/nginx-service-mesh/master/helm-chart/chart-icon.png
@@ -2206,7 +2206,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-04T15:19:16.163746884Z"
+    created: "2026-09-04T15:36:21.544098287Z"
     description: NGINX Service Mesh
     digest: bde006fd76601f79e6936112b326f2fc9e51a3af5097082ade9d9ffcf31b54fe
     kubeVersion: '>= 1.16.0-0'
@@ -2217,7 +2217,7 @@ entries:
   nim:
   - apiVersion: v2
     appVersion: 2.23.0
-    created: "2026-09-04T15:19:16.209050249Z"
+    created: "2026-09-04T15:36:21.589857071Z"
     description: A Helm chart for NGINX Instance Manager
     digest: f5258fa45a444ed53395a9380ac236c460cb70cde6a3fe6ca27c5361b4a1be9d
     name: nim
@@ -2227,7 +2227,7 @@ entries:
     version: 2.3.0
   - apiVersion: v2
     appVersion: 2.22.2
-    created: "2026-09-04T15:19:16.20443791Z"
+    created: "2026-09-04T15:36:21.586314323Z"
     description: A Helm chart for NGINX Instance Manager
     digest: 5ceb25887791c672514bf04e9e5ee8a930368091a49c98f7fb13f486d33557a5
     name: nim
@@ -2237,7 +2237,7 @@ entries:
     version: 2.2.2
   - apiVersion: v2
     appVersion: 2.22.1
-    created: "2026-09-04T15:19:16.200921082Z"
+    created: "2026-09-04T15:36:21.582809355Z"
     description: A Helm chart for NGINX Instance Manager
     digest: 22df1259da8282aef4b4fa898ef95c23f1f7258f683aa0d09e58e85fe2d65382
     name: nim
@@ -2247,7 +2247,7 @@ entries:
     version: 2.2.1
   - apiVersion: v2
     appVersion: 2.22.0
-    created: "2026-09-04T15:19:16.197394743Z"
+    created: "2026-09-04T15:36:21.577900012Z"
     description: A Helm chart for NGINX Instance Manager
     digest: ed0d9b651559e6dae9f532aa9c1dbc7714bf4cf1eb2ba684abdc59ff5659281e
     name: nim
@@ -2257,7 +2257,7 @@ entries:
     version: 2.2.0
   - apiVersion: v2
     appVersion: 2.21.1
-    created: "2026-09-04T15:19:16.192909708Z"
+    created: "2026-09-04T15:36:21.57406463Z"
     description: A Helm chart for NGINX Instance Manager
     digest: ba108cc919b23c8204b3e5bbcf2eb2cff23c45ce27d19c565857149b07925003
     name: nim
@@ -2267,7 +2267,7 @@ entries:
     version: 2.1.1
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2026-09-04T15:19:16.354471859Z"
+    created: "2026-09-04T15:36:21.743174945Z"
     description: A Helm chart for NGINX Instance Manager
     digest: 8e2b97c120d4767a046f9e50e24696f3da60fd6c6e38c3d7726d850e70bc77c6
     name: nim
@@ -2277,7 +2277,7 @@ entries:
     version: 2.1.0
   - apiVersion: v2
     appVersion: 2.20.1
-    created: "2026-09-04T15:19:16.189966526Z"
+    created: "2026-09-04T15:36:21.571127289Z"
     description: A Helm chart for Kubernetes
     digest: fe3747a20ef802c9940bffb5123feae31aeb97e1ba24152aa4654d7b51c6118c
     name: nim
@@ -2287,7 +2287,7 @@ entries:
     version: 2.0.1
   - apiVersion: v2
     appVersion: 2.20.0
-    created: "2026-09-04T15:19:16.187106246Z"
+    created: "2026-09-04T15:36:21.567219197Z"
     description: A Helm chart for NGINX Instance Manager
     digest: 6e0fb00fae8951257a909097a2445c9c32897432ab5b99ecd68a062b977b5536
     name: nim
@@ -2298,7 +2298,7 @@ entries:
   nms:
   - apiVersion: v2
     appVersion: NIM 2.19.0
-    created: "2026-09-04T15:19:16.291504521Z"
+    created: "2026-09-04T15:36:21.680663081Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2312,7 +2312,7 @@ entries:
     version: 1.16.0
   - apiVersion: v2
     appVersion: NIM 2.18.1|ACM 1.9.3
-    created: "2026-09-04T15:19:16.287963272Z"
+    created: "2026-09-04T15:36:21.676421715Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2330,7 +2330,7 @@ entries:
     version: 1.15.1
   - apiVersion: v2
     appVersion: NIM 2.18.0|ACM 1.9.3
-    created: "2026-09-04T15:19:16.280860344Z"
+    created: "2026-09-04T15:36:21.670052106Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2348,7 +2348,7 @@ entries:
     version: 1.15.0
   - apiVersion: v2
     appVersion: NIM 2.17.4|ACM 1.9.3
-    created: "2026-09-04T15:19:16.277534341Z"
+    created: "2026-09-04T15:36:21.66669455Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2366,7 +2366,7 @@ entries:
     version: 1.14.4
   - apiVersion: v2
     appVersion: NIM 2.17.3|ACM 1.9.2
-    created: "2026-09-04T15:19:16.274134846Z"
+    created: "2026-09-04T15:36:21.661976269Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2384,7 +2384,7 @@ entries:
     version: 1.14.3
   - apiVersion: v2
     appVersion: NIM 2.17.2|ACM 1.9.2
-    created: "2026-09-04T15:19:16.269328462Z"
+    created: "2026-09-04T15:36:21.658529372Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2402,7 +2402,7 @@ entries:
     version: 1.14.2
   - apiVersion: v2
     appVersion: NIM 2.17.1|ACM 1.9.2
-    created: "2026-09-04T15:19:16.265926467Z"
+    created: "2026-09-04T15:36:21.655120915Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2420,7 +2420,7 @@ entries:
     version: 1.14.1
   - apiVersion: v2
     appVersion: NIM 2.17.0|ACM 1.9.2
-    created: "2026-09-04T15:19:16.262508751Z"
+    created: "2026-09-04T15:36:21.650739228Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2438,7 +2438,7 @@ entries:
     version: 1.14.0
   - apiVersion: v2
     appVersion: NIM 2.16.0|ACM 1.9.2
-    created: "2026-09-04T15:19:16.25781709Z"
+    created: "2026-09-04T15:36:21.647170759Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2456,7 +2456,7 @@ entries:
     version: 1.13.0
   - apiVersion: v2
     appVersion: NIM 2.15.1|ACM 1.9.2|ADM 4.0.0-ea.3
-    created: "2026-09-04T15:19:16.254536109Z"
+    created: "2026-09-04T15:36:21.643934864Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2478,7 +2478,7 @@ entries:
     version: 1.12.2
   - apiVersion: v2
     appVersion: NIM 2.15.1|ACM 1.9.1|ADM 4.0.0-ea.3
-    created: "2026-09-04T15:19:16.250528577Z"
+    created: "2026-09-04T15:36:21.639903421Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2500,7 +2500,7 @@ entries:
     version: 1.12.1
   - apiVersion: v2
     appVersion: NIM 2.15.0|ACM 1.9.1|ADM 4.0.0-ea.3
-    created: "2026-09-04T15:19:16.245367523Z"
+    created: "2026-09-04T15:36:21.6342346Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2522,7 +2522,7 @@ entries:
     version: 1.12.0
   - apiVersion: v2
     appVersion: NIM 2.14.1|ACM 1.9.1|ADM 4.0.0-ea.3
-    created: "2026-09-04T15:19:16.241280829Z"
+    created: "2026-09-04T15:36:21.630228237Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2544,7 +2544,7 @@ entries:
     version: 1.11.1
   - apiVersion: v2
     appVersion: NIM 2.14.0|ACM 1.9.1|ADM 4.0.0-ea.3
-    created: "2026-09-04T15:19:16.237293137Z"
+    created: "2026-09-04T15:36:21.626086932Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2566,7 +2566,7 @@ entries:
     version: 1.11.0
   - apiVersion: v2
     appVersion: NIM 2.13.1|ACM 1.9.1|ADM 4.0.0-ea.3
-    created: "2026-09-04T15:19:16.232545315Z"
+    created: "2026-09-04T15:36:21.620646923Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2588,7 +2588,7 @@ entries:
     version: 1.10.2
   - apiVersion: v2
     appVersion: NIM 2.13.1|ACM 1.9.0|ADM 4.0.0-ea.3
-    created: "2026-09-04T15:19:16.228344177Z"
+    created: "2026-09-04T15:36:21.61664948Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2610,7 +2610,7 @@ entries:
     version: 1.10.1
   - apiVersion: v2
     appVersion: NIM 2.13.1|ACM 1.8.0|ADM 4.0.0-ea.3
-    created: "2026-09-04T15:19:16.224467559Z"
+    created: "2026-09-04T15:36:21.61105635Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2632,7 +2632,7 @@ entries:
     version: 1.10.0
   - apiVersion: v2
     appVersion: NIM 2.13.0|ACM 1.8.0|ADM 4.0.0-ea.3
-    created: "2026-09-04T15:19:16.351484895Z"
+    created: "2026-09-04T15:36:21.73895089Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2654,7 +2654,7 @@ entries:
     version: 1.9.0
   - apiVersion: v2
     appVersion: NIM 2.12.0|ACM 1.8.0|ADM 4.0.0-ea.3
-    created: "2026-09-04T15:19:16.346410524Z"
+    created: "2026-09-04T15:36:21.735104058Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2676,7 +2676,7 @@ entries:
     version: 1.8.2
   - apiVersion: v2
     appVersion: NIM 2.12.0|ACM 1.8.0|ADM 4.0.0-ea.2
-    created: "2026-09-04T15:19:16.342604357Z"
+    created: "2026-09-04T15:36:21.731339118Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2698,7 +2698,7 @@ entries:
     version: 1.8.1
   - apiVersion: v2
     appVersion: NIM 2.12.0|ACM 1.7.0|ADM 4.0.0-ea.2
-    created: "2026-09-04T15:19:16.338849942Z"
+    created: "2026-09-04T15:36:21.726430705Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2720,7 +2720,7 @@ entries:
     version: 1.8.0
   - apiVersion: v2
     appVersion: NIM 2.11.0|ACM 1.7.0|ADM 4.0.0-ea.2
-    created: "2026-09-04T15:19:16.333766721Z"
+    created: "2026-09-04T15:36:21.722482332Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2742,7 +2742,7 @@ entries:
     version: 1.7.2
   - apiVersion: v2
     appVersion: NIM 2.11.0|ACM 1.7.0|ADM 4.0.0
-    created: "2026-09-04T15:19:16.330040387Z"
+    created: "2026-09-04T15:36:21.718822252Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2764,7 +2764,7 @@ entries:
     version: 1.7.1
   - apiVersion: v2
     appVersion: NIM 2.11.0|ACM 1.6.0|ADM 4.0.0
-    created: "2026-09-04T15:19:16.326080336Z"
+    created: "2026-09-04T15:36:21.713724308Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2786,7 +2786,7 @@ entries:
     version: 1.7.0
   - apiVersion: v2
     appVersion: NIM 2.10.1|ACM 1.6.0|ADM 4.0.0
-    created: "2026-09-04T15:19:16.321025595Z"
+    created: "2026-09-04T15:36:21.709895406Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2808,7 +2808,7 @@ entries:
     version: 1.6.0
   - apiVersion: v2
     appVersion: NIM 2.10.0|ACM 1.6.0|ADM 4.0.0
-    created: "2026-09-04T15:19:16.317353622Z"
+    created: "2026-09-04T15:36:21.706078975Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2830,7 +2830,7 @@ entries:
     version: 1.5.2
   - apiVersion: v2
     appVersion: NIM 2.10.0|ACM 1.6.0
-    created: "2026-09-04T15:19:16.313535536Z"
+    created: "2026-09-04T15:36:21.701102711Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2848,7 +2848,7 @@ entries:
     version: 1.5.1
   - apiVersion: v2
     appVersion: NIM 2.10.0|ACM 1.5.0
-    created: "2026-09-04T15:19:16.30903499Z"
+    created: "2026-09-04T15:36:21.698009078Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2866,7 +2866,7 @@ entries:
     version: 1.5.0
   - apiVersion: v2
     appVersion: NIM 2.9.1|ACM 1.5.0
-    created: "2026-09-04T15:19:16.305984265Z"
+    created: "2026-09-04T15:36:21.694986865Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2884,7 +2884,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: NIM 2.9.0|ACM 1.5.0
-    created: "2026-09-04T15:19:16.303349881Z"
+    created: "2026-09-04T15:36:21.692250586Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2902,7 +2902,7 @@ entries:
     version: 1.3.1
   - apiVersion: v2
     appVersion: NIM 2.9.0|ACM 1.4.1
-    created: "2026-09-04T15:19:16.300655386Z"
+    created: "2026-09-04T15:36:21.688470605Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2920,7 +2920,7 @@ entries:
     version: 1.3.0
   - apiVersion: v2
     appVersion: 1.2.1
-    created: "2026-09-04T15:19:16.296698476Z"
+    created: "2026-09-04T15:36:21.685911167Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2938,7 +2938,7 @@ entries:
     version: 1.2.1
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2026-09-04T15:19:16.294077963Z"
+    created: "2026-09-04T15:36:21.683207868Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2956,7 +2956,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2026-09-04T15:19:16.219723787Z"
+    created: "2026-09-04T15:36:21.603829392Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2974,7 +2974,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2026-09-04T15:19:16.216757134Z"
+    created: "2026-09-04T15:36:21.600205763Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -2992,7 +2992,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-04T15:19:16.214293505Z"
+    created: "2026-09-04T15:36:21.596798786Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -3010,7 +3010,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-04T15:19:16.211669262Z"
+    created: "2026-09-04T15:36:21.593767833Z"
     dependencies:
     - name: nms-hybrid
       repository: https://github.com/nginxinc/helm-charts/stable
@@ -3029,7 +3029,7 @@ entries:
   nms-acm:
   - apiVersion: v2
     appVersion: 1.9.3
-    created: "2026-09-04T15:19:16.363074419Z"
+    created: "2026-09-04T15:36:21.75010588Z"
     description: A Helm chart for Kubernetes
     digest: 4c0eacc5c6000a1c04b06710676fa468aea38232190e6527a9a0dd207255cf70
     name: nms-acm
@@ -3039,7 +3039,7 @@ entries:
     version: 1.9.3
   - apiVersion: v2
     appVersion: 1.9.2
-    created: "2026-09-04T15:19:16.361511545Z"
+    created: "2026-09-04T15:36:21.749451193Z"
     description: A Helm chart for Kubernetes
     digest: f14e43775342e1cff4223f146d932626755bef640aa7641c2f18fe3d03b17448
     name: nms-acm
@@ -3049,7 +3049,7 @@ entries:
     version: 1.9.2
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2026-09-04T15:19:16.360093886Z"
+    created: "2026-09-04T15:36:21.748844076Z"
     description: A Helm chart for Kubernetes
     digest: 47c14bab3e72948a0826aca7301093c66d58f3981d48002c8b131ef97b320067
     name: nms-acm
@@ -3059,7 +3059,7 @@ entries:
     version: 1.9.1
   - apiVersion: v2
     appVersion: 1.9.0
-    created: "2026-09-04T15:19:16.359472218Z"
+    created: "2026-09-04T15:36:21.74821054Z"
     description: A Helm chart for Kubernetes
     digest: d892a5b04cd21e91d350531f8987199fc984b23f3d34aef845fb9bb4da14c4e2
     name: nms-acm
@@ -3069,7 +3069,7 @@ entries:
     version: 1.9.0
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2026-09-04T15:19:16.35883573Z"
+    created: "2026-09-04T15:36:21.747592493Z"
     description: A Helm chart for Kubernetes
     digest: 393087f8a08c6fa36bc330d56afcbaaff318fe5afdeae646fc4188feda8f4b97
     name: nms-acm
@@ -3079,7 +3079,7 @@ entries:
     version: 1.8.0
   - apiVersion: v2
     appVersion: 1.7.0
-    created: "2026-09-04T15:19:16.358242724Z"
+    created: "2026-09-04T15:36:21.746973506Z"
     description: A Helm chart for Kubernetes
     digest: 384c5824f58f59791bd0c2abc70d988a2c008aeadca46f0b065d28bd058eec4a
     name: nms-acm
@@ -3089,7 +3089,7 @@ entries:
     version: 1.7.0
   - apiVersion: v2
     appVersion: 1.6.0
-    created: "2026-09-04T15:19:16.357615966Z"
+    created: "2026-09-04T15:36:21.746334619Z"
     description: A Helm chart for Kubernetes
     digest: 3873ddaf5a398e81685d191f3704f2f48cc28278048dcd89677415a3f52e6cd9
     name: nms-acm
@@ -3099,7 +3099,7 @@ entries:
     version: 1.6.0
   - apiVersion: v2
     appVersion: 1.5.0
-    created: "2026-09-04T15:19:16.356983729Z"
+    created: "2026-09-04T15:36:21.745727983Z"
     description: A Helm chart for Kubernetes
     digest: b439e387537ded8a3487c36a6a9bf8e8faa7cadedbf31a4f92bce426fc2af17a
     name: nms-acm
@@ -3109,7 +3109,7 @@ entries:
     version: 1.5.0
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2026-09-04T15:19:16.356391502Z"
+    created: "2026-09-04T15:36:21.745071536Z"
     description: A Helm chart for Kubernetes
     digest: 9454f469c1c1e6e7ffbe46444d4a7a1a9e42c0e2497f69dbf46dea588d04cbb6
     name: nms-acm
@@ -3119,7 +3119,7 @@ entries:
     version: 1.4.1
   - apiVersion: v2
     appVersion: 1.4.0
-    created: "2026-09-04T15:19:16.355721013Z"
+    created: "2026-09-04T15:36:21.744447399Z"
     description: A Helm chart for Kubernetes
     digest: 7bcc3db9533e9279d52ef86a6c8d23bb291eaabe4f21def1d80e48c3c7802c7f
     name: nms-acm
@@ -3129,7 +3129,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.3.1
-    created: "2026-09-04T15:19:16.355067125Z"
+    created: "2026-09-04T15:36:21.743845212Z"
     description: A Helm chart for Kubernetes
     digest: e4b719fddc433219b9f0762763a1ac2311ffcb0e516ba9d46e8c86b4de11b8ef
     name: nms-acm
@@ -3140,7 +3140,7 @@ entries:
   nms-adm:
   - apiVersion: v2
     appVersion: 4.0.0
-    created: "2026-09-04T15:19:16.363911212Z"
+    created: "2026-09-04T15:36:21.750839818Z"
     description: A Helm chart for ADM
     digest: aab2502e4007992318c89157e71f16ec550799d1df3ef2dec1ecfc4f1e200410
     name: nms-adm
@@ -3150,7 +3150,7 @@ entries:
     version: 4.0.0
   - apiVersion: v2
     appVersion: 4.0.0
-    created: "2026-09-04T15:19:16.365539828Z"
+    created: "2026-09-04T15:36:21.752292024Z"
     description: A Helm chart for ADM
     digest: ea9f684145b25b4370fe23b906ba5cd7b64dabc487f11e85236b91448077a5f7
     name: nms-adm
@@ -3160,7 +3160,7 @@ entries:
     version: 4.0.0
   - apiVersion: v2
     appVersion: 4.0.0
-    created: "2026-09-04T15:19:16.364705104Z"
+    created: "2026-09-04T15:36:21.751589296Z"
     description: A Helm chart for ADM
     digest: 1f10bd6a46fdea113460943fe31e414074e61abca3ae2cebd377837ee8e5afd9
     name: nms-adm
@@ -3171,7 +3171,7 @@ entries:
   nms-hybrid:
   - apiVersion: v2
     appVersion: 2.19.3
-    created: "2026-09-04T15:19:16.429452562Z"
+    created: "2026-09-04T15:36:21.817172834Z"
     description: A Helm chart for Kubernetes
     digest: 22fdaed65ca6e1fbc50232a0993bafa0ba29b422aa9ae2f8c5dbe4a695cab4ca
     name: nms-hybrid
@@ -3181,7 +3181,7 @@ entries:
     version: 2.19.3
   - apiVersion: v2
     appVersion: 2.19.2
-    created: "2026-09-04T15:19:16.426617723Z"
+    created: "2026-09-04T15:36:21.814237012Z"
     description: A Helm chart for Kubernetes
     digest: e2a29d830ff85d144959e3e7eadd1e1e0adbcd3c858f19064b971892fb5d4ef5
     name: nms-hybrid
@@ -3191,7 +3191,7 @@ entries:
     version: 2.19.2
   - apiVersion: v2
     appVersion: 2.19.1
-    created: "2026-09-04T15:19:16.423778614Z"
+    created: "2026-09-04T15:36:21.811460552Z"
     description: A Helm chart for Kubernetes
     digest: 7089bff2499859d248d8429b5a21478584c7e54389d8c80c2b3042d572ca6d43
     name: nms-hybrid
@@ -3201,7 +3201,7 @@ entries:
     version: 2.19.1
   - apiVersion: v2
     appVersion: 2.19.0
-    created: "2026-09-04T15:19:16.419761611Z"
+    created: "2026-09-04T15:36:21.808667702Z"
     description: A Helm chart for Kubernetes
     digest: 653f483fb2c45c89df3e3f3fc00dc9830b0cfc29f3a69e260bdf336379db255e
     name: nms-hybrid
@@ -3211,7 +3211,7 @@ entries:
     version: 2.19.0
   - apiVersion: v2
     appVersion: 2.18.1
-    created: "2026-09-04T15:19:16.416948013Z"
+    created: "2026-09-04T15:36:21.804309155Z"
     description: A Helm chart for Kubernetes
     digest: 6ad24067ac6b700ad0204bf901b68010e2a8e094df7aba8837af58e1a128e852
     name: nms-hybrid
@@ -3221,7 +3221,7 @@ entries:
     version: 2.18.1
   - apiVersion: v2
     appVersion: 2.18.0
-    created: "2026-09-04T15:19:16.414297489Z"
+    created: "2026-09-04T15:36:21.801757597Z"
     description: A Helm chart for Kubernetes
     digest: 5fb42f777c5155902c5887989cbf0d696627f75b3168d6d5e4d0216f9d6df881
     name: nms-hybrid
@@ -3231,7 +3231,7 @@ entries:
     version: 2.18.0
   - apiVersion: v2
     appVersion: 2.17.4
-    created: "2026-09-04T15:19:16.411634264Z"
+    created: "2026-09-04T15:36:21.79920718Z"
     description: A Helm chart for Kubernetes
     digest: 95f359724952eccdfa46b14d063e7885feefc6e63828b847075e8e4fc1ca584c
     name: nms-hybrid
@@ -3241,7 +3241,7 @@ entries:
     version: 2.17.4
   - apiVersion: v2
     appVersion: 2.17.3
-    created: "2026-09-04T15:19:16.407944451Z"
+    created: "2026-09-04T15:36:21.796598682Z"
     description: A Helm chart for Kubernetes
     digest: 24509f0627191fd4e90142214e3a5f14ed144cd8c08af5a3130adee3f8ce7d08
     name: nms-hybrid
@@ -3251,7 +3251,7 @@ entries:
     version: 2.17.3
   - apiVersion: v2
     appVersion: 2.17.2
-    created: "2026-09-04T15:19:16.405355339Z"
+    created: "2026-09-04T15:36:21.793299676Z"
     description: A Helm chart for Kubernetes
     digest: 71a2daed9a5f27dc97284022be3767ebfe0ee4fe4a129791c2db0ef619d9d9e6
     name: nms-hybrid
@@ -3261,7 +3261,7 @@ entries:
     version: 2.17.2
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2026-09-04T15:19:16.402809988Z"
+    created: "2026-09-04T15:36:21.7899281Z"
     description: A Helm chart for Kubernetes
     digest: 1f2d155e0ddeb614e9bb7e8bedd69fee003393a243cc14c4cd9fed304872832c
     name: nms-hybrid
@@ -3271,7 +3271,7 @@ entries:
     version: 2.17.1
   - apiVersion: v2
     appVersion: 2.17.0
-    created: "2026-09-04T15:19:16.400139114Z"
+    created: "2026-09-04T15:36:21.787358052Z"
     description: A Helm chart for Kubernetes
     digest: d257587f79b6a3cc4428a2fd856489099c1352d5e7c12bcb8e18fdfe21770500
     name: nms-hybrid
@@ -3281,7 +3281,7 @@ entries:
     version: 2.17.0
   - apiVersion: v2
     appVersion: 2.16.0
-    created: "2026-09-04T15:19:16.396123782Z"
+    created: "2026-09-04T15:36:21.784761214Z"
     description: A Helm chart for Kubernetes
     digest: 4073f698483008dd1fffcf18b22fb2c43e94464e5aa5a312c6032d1813fbd81b
     name: nms-hybrid
@@ -3291,7 +3291,7 @@ entries:
     version: 2.16.0
   - apiVersion: v2
     appVersion: 2.15.1
-    created: "2026-09-04T15:19:16.393432576Z"
+    created: "2026-09-04T15:36:21.782054855Z"
     description: A Helm chart for Kubernetes
     digest: 5943b4ca64d5a3e3b7af6fd18e9f78c8128e1b172b1c5eda73321421f0551e3c
     name: nms-hybrid
@@ -3301,7 +3301,7 @@ entries:
     version: 2.15.1
   - apiVersion: v2
     appVersion: 2.15.0
-    created: "2026-09-04T15:19:16.390732571Z"
+    created: "2026-09-04T15:36:21.778461226Z"
     description: A Helm chart for Kubernetes
     digest: b0907c99b0e4a9be6f0e2d91e4ea59b95fcb56e77507748d35230733838b2218
     name: nms-hybrid
@@ -3311,7 +3311,7 @@ entries:
     version: 2.15.0
   - apiVersion: v2
     appVersion: 2.14.1
-    created: "2026-09-04T15:19:16.388048726Z"
+    created: "2026-09-04T15:36:21.775515914Z"
     description: A Helm chart for Kubernetes
     digest: 1787b3f7ff036bf690d93e2330a3033ec6eaf35482e5c5cf2e13ac3a030e49f0
     name: nms-hybrid
@@ -3321,7 +3321,7 @@ entries:
     version: 2.14.1
   - apiVersion: v2
     appVersion: 2.14.0
-    created: "2026-09-04T15:19:16.384110026Z"
+    created: "2026-09-04T15:36:21.772827675Z"
     description: A Helm chart for Kubernetes
     digest: fd485a52f38e646dedf040d7bbd7c03f66f02f7c213e9f3d5be7ffd608508436
     name: nms-hybrid
@@ -3331,7 +3331,7 @@ entries:
     version: 2.14.0
   - apiVersion: v2
     appVersion: 2.13.1
-    created: "2026-09-04T15:19:16.381482163Z"
+    created: "2026-09-04T15:36:21.770130156Z"
     description: A Helm chart for Kubernetes
     digest: c8ceea844f3898afbbe91a00f92ecb830836d9be6856301524e5eb31fc0c8b4a
     name: nms-hybrid
@@ -3341,7 +3341,7 @@ entries:
     version: 2.13.1
   - apiVersion: v2
     appVersion: 2.13.0
-    created: "2026-09-04T15:19:16.378985153Z"
+    created: "2026-09-04T15:36:21.767051303Z"
     description: A Helm chart for Kubernetes
     digest: baaaf477735418a7abd674b7e6dbd3c371553763be7f90cb71ae3feeba8f686c
     name: nms-hybrid
@@ -3351,7 +3351,7 @@ entries:
     version: 2.13.0
   - apiVersion: v2
     appVersion: 2.12.0
-    created: "2026-09-04T15:19:16.376515184Z"
+    created: "2026-09-04T15:36:21.762935939Z"
     description: A Helm chart for Kubernetes
     digest: 5dbbd2bcf2f9364a3b16cc7f6ce4ee2b559c6a340c4121e5a3c38c9c1648974d
     name: nms-hybrid
@@ -3361,7 +3361,7 @@ entries:
     version: 2.12.0
   - apiVersion: v2
     appVersion: 2.11.0
-    created: "2026-09-04T15:19:16.373359236Z"
+    created: "2026-09-04T15:36:21.760410831Z"
     description: A Helm chart for Kubernetes
     digest: ef2ef1bd78edb6b222bc9623c36b70c9108f4b450d8b994da3ceb0a83a50d968
     name: nms-hybrid
@@ -3371,7 +3371,7 @@ entries:
     version: 2.11.0
   - apiVersion: v2
     appVersion: 2.10.1
-    created: "2026-09-04T15:19:16.37028767Z"
+    created: "2026-09-04T15:36:21.758018895Z"
     description: A Helm chart for Kubernetes
     digest: d53dcdf7142d224382d1e4368b98443995ca41a01bd7314322bc8dd8700b762c
     name: nms-hybrid
@@ -3381,7 +3381,7 @@ entries:
     version: 2.10.1
   - apiVersion: v2
     appVersion: 2.10.0
-    created: "2026-09-04T15:19:16.367959355Z"
+    created: "2026-09-04T15:36:21.75568222Z"
     description: A Helm chart for Kubernetes
     digest: 4756e71666fdbc30a983e84a2a5e5b65611e63c283f56dce526f9c337d9dd1cc
     name: nms-hybrid
@@ -3391,7 +3391,7 @@ entries:
     version: 2.10.0
   - apiVersion: v2
     appVersion: 2.9.1
-    created: "2026-09-04T15:19:16.439833592Z"
+    created: "2026-09-04T15:36:21.827394604Z"
     description: A Helm chart for Kubernetes
     digest: 1ea5ee8d39a0a8fa276ae5c04ff863e8a4f6052d8854f2766398f2766c576965
     name: nms-hybrid
@@ -3401,7 +3401,7 @@ entries:
     version: 2.9.1
   - apiVersion: v2
     appVersion: 2.9.0
-    created: "2026-09-04T15:19:16.437958469Z"
+    created: "2026-09-04T15:36:21.825589185Z"
     description: A Helm chart for Kubernetes
     digest: 15f7c013037df405779b4b442ee7c432840bac14a2e832a1781cc48c3d275ec6
     name: nms-hybrid
@@ -3411,7 +3411,7 @@ entries:
     version: 2.9.0
   - apiVersion: v2
     appVersion: 2.8.0
-    created: "2026-09-04T15:19:16.435944353Z"
+    created: "2026-09-04T15:36:21.823663484Z"
     description: A Helm chart for Kubernetes
     digest: 0015c1054ce0508e47b44eb19cb65080f27dcbd9aab16fc80eb94687466fef0a
     name: nms-hybrid
@@ -3421,7 +3421,7 @@ entries:
     version: 2.8.0
   - apiVersion: v2
     appVersion: 2.7.0
-    created: "2026-09-04T15:19:16.432699433Z"
+    created: "2026-09-04T15:36:21.821694052Z"
     description: A Helm chart for Kubernetes
     digest: 6238f08ebbfe3c6298f34676ec3384a71b9ef8b7ed34d1b32bc46fe1064e673d
     name: nms-hybrid
@@ -3431,7 +3431,7 @@ entries:
     version: 2.7.0
   - apiVersion: v2
     appVersion: 2.6.0
-    created: "2026-09-04T15:19:16.431054697Z"
+    created: "2026-09-04T15:36:21.819470509Z"
     description: A Helm chart for Kubernetes
     digest: 57e59c70580a91f1f8905a23d2f8cae4fa343114cc895528a2f9cf2fbddb0aa1
     name: nms-hybrid
@@ -3439,4 +3439,4 @@ entries:
     urls:
     - https://helm.nginx.com/stable/nms-hybrid-2.6.0.tgz
     version: 2.6.0
-generated: "2026-09-04T15:19:15.816780467Z"
+generated: "2026-09-04T15:36:21.209227924Z"
