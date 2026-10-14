@@ -2309,6 +2309,16 @@ entries:
     version: 0.1.0
   nim:
   - apiVersion: v2
+    appVersion: 2.24.0
+    created: "2026-10-14T17:00:02.920584215Z"
+    description: A Helm chart for NGINX Instance Manager
+    digest: 59f770743f080817297319a25e2859632ca0721145816ba2f0cc7f6b3f4c7b71
+    name: nim
+    type: application
+    urls:
+    - https://helm.nginx.com/stable/nim-2.4.0.tgz
+    version: 2.4.0
+  - apiVersion: v2
     appVersion: 2.23.1
     created: "2026-10-14T11:28:48.709418633Z"
     description: A Helm chart for NGINX Instance Manager
