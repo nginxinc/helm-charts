@@ -17,6 +17,21 @@ entries:
     - https://helm.nginx.com/stable/f5-waf-policy-controller-5.15.0.tgz
     version: 5.15.0
   - apiVersion: v2
+    appVersion: 5.14.2
+    created: "2026-10-14T16:25:40.458319397Z"
+    dependencies:
+    - condition: seaweedfsOperatorConfig.enabled
+      name: seaweedfs-operator
+      repository: '@f5-nap-helm'
+      version: 5.14.2
+    description: F5 WAF Policy Lifecycle Manager
+    digest: 063ac1450e9aa3d44e35fca230142a2acb0c2878a6cb3c988fbfbc61e2aa1972
+    name: f5-waf-policy-controller
+    type: application
+    urls:
+    - https://helm.nginx.com/stable/f5-waf-policy-controller-5.14.2.tgz
+    version: 5.14.2
+  - apiVersion: v2
     appVersion: 5.14.0
     created: "2026-10-14T11:28:48.299326672Z"
     dependencies:
@@ -3512,4 +3527,4 @@ entries:
     urls:
     - https://helm.nginx.com/stable/nms-hybrid-2.6.0.tgz
     version: 2.6.0
-generated: "2026-10-14T11:28:48.282018316Z"
+generated: "2026-10-14T16:25:40.449782493Z"
